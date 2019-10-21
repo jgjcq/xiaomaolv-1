@@ -1,0 +1,86 @@
+body {
+	/*overflow-x: hidden;*/
+}
+
+* {
+	font-family: '微软雅黑';
+}
+
+.container {
+	/*width: 1200px !important;*/
+	max-width: 100% !important;
+	/*min-width: 1200px !important;*/
+}
+
+.ace-settings-container div:last-child {
+	margin-right: 25px;
+}
+
+.ace-settings-container {
+	top: 100px;
+}
+
+.page-content {
+    padding-bottom: 68px;
+    }
+
+select:disabled,
+input:disabled {
+	background: #F5F5F5;
+	!important
+}
+
+#loadSpan {
+	display: block;
+	text-align: center;
+	font-size: 18px;
+}
+
+#modalFrame {
+	display: none;
+}
+
+.demo {
+	display: none;
+}
+
+.footer{
+    background: rgba(0, 0, 0, 0.78);
+    color: white;
+    font-size: 14px;
+    text-align: center;
+    padding: 8px 0;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+
+#contactMe{
+    position: absolute;
+    right: 30px;
+    top: 46px;
+    text-align: right;
+    z-index:20;
+}
+
+#contactMe img.sm{
+	width:38px;
+	height:38px;
+}
+
+#contactMe div{
+	cursor:pointer;
+}
+
+#contactMe img.lg{
+	width:145px;
+	height:145px;
+}
+
+#contactMe div:hover + img.lg{
+	display: block;
+}
+
+.xrbtn{
+	cursor: pointer;
+}

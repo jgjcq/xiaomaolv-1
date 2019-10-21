@@ -1,0 +1,14 @@
+#sidebar ul li,
+ul.user-menu li {
+	cursor: pointer;
+}
+
+#sidebar .nav li a i[class*='fa fa-'] {
+	display: inline-block;
+	vertical-align: middle;
+	min-width: 30px;
+	text-align: center;
+	font-size: 18px;
+	font-weight: normal;
+	margin-right: 2px;
+}

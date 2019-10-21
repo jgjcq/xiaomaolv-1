@@ -1,0 +1,111 @@
+body{
+	background-color: white;
+}
+body::-webkit-scrollbar {/*隐藏滚轮*/
+display: none;
+}
+.listcontent{
+	/*background-color: #444;*/
+	/*padding:0px!important;*/
+}
+.page-container{
+	/*padding-top: 11px;*/
+	background-color: white;
+	padding:20px 20px 0px 20px;
+}
+
+
+/*#searchForm div {
+	margin-top: 5px;
+	font-size: 15px;
+	margin-bottom:10px;
+}*/
+
+#searchForm{
+	/*display: none;*/
+}
+
+select,input{
+	width:152px;
+	text-indent:3px;
+	border:none!important;
+	height:28px;
+	margin-right: 10px;
+}
+.nav-list::-webkit-scrollbar {
+        display: none;
+    }
+.page-content::-webkit-scrollbar {
+        display: none;
+    }
+.searchForm{
+	background-color:#eee; height:auto; width:100%;
+	/*border-radius: 6px;*/
+	/*margin-top:10px;*/
+	/*margin-left: -1%;*/
+	border:1px solid #ccc;
+	border-bottom:none;
+}
+/*.borerRow{
+	height:1px;
+	background-color: #ccc;
+	margin-left: -1%;
+	height:auto; width:102%;
+}*/
+.searchForm-title{
+	/*background: -webkit-linear-gradient(#E39329, #FFC471);
+    background: -o-linear-gradient(#E39329, #FFC471); 
+    background: -moz-linear-gradient(#E39329, #FFC471); 
+    background: linear-gradient(#E39329, #FFC471);*/
+	background-color: #ccc;
+	height:35px;
+	/*border-radius: 6px 6px 0px 0px;*/
+	color:#333;
+	font-size: 14px;
+	font-weight: bold;
+	line-height: 35px;
+	/*text-indent: 15px;*/ 
+	padding-left:15px;
+	padding-right:15px;
+}
+.searchFormTitleIcon{
+	float: right;
+	color:#fff;
+	font-size: 20px;
+	margin-top: 6px;
+	cursor: pointer;
+	height:24px;
+	width:24px;
+	line-height: 24px;
+	/*background-color: blue;*/
+	border-radius: 3px;
+}
+.searchFormTitleIcon:hover{
+	background-color: #aaa;
+}
+.searchForm-main{
+	/*line-height: 70px;*/
+	padding:15px 20px 15px 20px;
+}
+.searchForm-title-icon{
+	margin-right: 8px;
+	font-size: 15px;
+}
+.operationRow{
+	height:50px;
+	/*background-color: red;*/
+	/*width: 102%;
+	margin-left: -1%;*/
+	line-height:46px;
+	background-color: #fff;
+	padding-left: 19px;
+	border:1px solid #ccc;
+	/*border-top: none;*/
+}
+
+.pageItemButton i{
+	margin-right: 5px;
+}
+
+
+

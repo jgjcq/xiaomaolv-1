@@ -1,0 +1,1 @@
+<script src="<?php echo base_url(); ?>public/home/laydate/laydate.js"></script>

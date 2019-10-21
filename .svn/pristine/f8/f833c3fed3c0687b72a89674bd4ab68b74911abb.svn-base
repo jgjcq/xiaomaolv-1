@@ -1,0 +1,27 @@
+* {
+	font-family: "微软雅黑";
+}
+
+/*.mheader {
+	height: 45px;
+	text-align: center;
+	background: #438EB9;
+	font-size: 20px;
+	color: white;
+	line-height: 45px;
+	position: fixed;
+	top:0;
+	width:100%;
+	z-index: 5555;
+}*/
+
+.footer{
+	padding:10px 0;
+	text-align: center;
+	width:100%;
+	/*background:white;*/
+}
+
+.demo{
+	display: none;
+}

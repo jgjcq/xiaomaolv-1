@@ -1,0 +1,23 @@
+select {
+	display: bolock;
+	margin-top: 15px;
+}
+
+table th {
+	width: 32%;
+}
+
+.edit_table #picDiv img {
+	width: 80px;
+	height: 100px;
+}
+
+.edit_table #picDiv div{
+	width: 80px;
+}
+
+.parentFileBox>.fileBoxUl>li,
+.parentFileBox>.fileBoxUl>li>.viewThumb>img {
+	width: 52px;
+	height: 58px;
+}

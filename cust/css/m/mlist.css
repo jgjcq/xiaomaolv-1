@@ -1,0 +1,180 @@
+.porder {
+	height: 35px;
+	text-align: center;
+	line-height: 35px;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 5555;
+	font-weight: bolder;
+}
+
+.porder div[class*='col-'] {
+	font-size: 15px;
+	background: #E4E6E9;
+	border: solid 1px gray;
+	border-left: none;
+}
+
+.porder div[class*='col-'].active {
+	color: white;
+	background: #6299F4;
+}
+
+.workshow {
+	background: #F2F5F9;
+	margin-top:35px;
+}
+
+.workshow .detailitem {
+	padding: 10px 0;
+	height: 120px;
+	border-bottom: solid 1px gray;
+}
+
+.detailitem img {
+	width: 100%;
+	height: 100px;
+	border: solid 1px gray;
+}
+
+.detailitem .carname {
+	font-size: 13px;
+	height: 25px;
+}
+
+.detailitem .carintroduce {
+	font-size: 12px;
+	color: gray;
+	display: block;
+	height: 50px;
+}
+
+.detailitem .carintroduce span {
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	-webkit-box-orient: vertical;
+	text-overflow: ellipsis;
+	height: 38px;
+	margin-top: 8px;
+	overflow: hidden;
+}
+
+.detailitem .price {
+	float: left;
+	height: 25px;
+	font-size: 10px;
+}
+
+.detailitem .price span {
+	font-size: 18px;
+	color: red;
+}
+
+.detailitem .kilometer {
+	float: right;
+	text-align: right;
+	height: 25px;
+	font-size: 10px;
+	line-height: 30px;
+}
+
+.detailitem .kilometer span {
+	font-size: 12px;
+}
+
+.loadingRow span,
+.endRow span {
+	text-align: center;
+	font-size: 18px;
+	font-weight: bolder;
+	display: block;
+	text-align: center;
+	padding: 15px 0;
+	width: 100%;
+}
+
+.conditionDiv{
+	display: none;
+	height: 100%;
+	position: fixed;
+	top: 0px;
+	width: 100%;
+	z-index: 99999;
+	background: rgba(211, 212, 213, 0.5);
+}
+
+.conditionDiv .blank {
+	width: 20%;
+	height: 100%;
+	float: left;
+}
+
+.conditionDiv .condition{
+	background: white;
+	height: 100%;
+	padding: 0;
+	float: right;
+	width: 80%;
+	margin-right: -80%;
+	overflow-y: scroll;
+}
+
+.condition .condition_title {
+	font-size: 15px;
+	text-align: left;
+	padding-left: 5px;
+	color: white;
+	background: #438EB9;
+	margin-bottom: 18px;
+}
+
+.condition .condition_subtitle {
+	text-align: center;
+	color: gray;
+	font-size: 15px;
+	padding-top: 10px;
+	padding-bottom: 5px;
+}
+
+.condition .condition_content {
+	text-align: center;
+	padding: 3px 0;
+}
+
+.condition .condition_content select {
+	height: 35px;
+	margin-top: 5px;
+	text-align: center;
+}
+
+.condition .btns {
+	text-align: center;
+	margin-top: 25px;
+	bottom: 25px;
+}
+
+.condition .btns button {
+	width: 100px;
+	height: 45px;
+	margin-left: 25px;
+}
+
+.conditionBtn div {
+	display: inline-block;
+	margin-left: 3px;
+}
+
+.conditionBtn span {
+	display: inline-block;
+	width: 12px;
+	height: 12px;
+	font-size: 8px;
+	font-weight: bold;
+	line-height: 13px;
+	color: #fff;
+	text-align: center;
+	background-color: #D15B47;
+	border-radius: 13px;
+	visibility: hidden;
+}

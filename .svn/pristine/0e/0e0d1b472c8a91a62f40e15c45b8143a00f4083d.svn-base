@@ -1,0 +1,3 @@
+$this->load->library('PHPExcel/PHPExcel');
+$this->load->library('PHPExcel/PHPExcel/IOFactory');
+$excel = new PHPExcel();

@@ -1,0 +1,21 @@
+refresher.init({
+			id: "wrapper", //<------------------------------------------------------------------------------------┐
+			pullDownAction: Refresh,
+			pullUpAction: Load
+		});
+
+		function Refresh() {
+			canChange = 0;
+			setTimeout(function() { // <-- Simulate network congestion, remove setTimeout from production!
+				wrapper.refresh();
+				canChange = 1;
+			}, 2000);
+		}
+
+		function Load() {
+			canChange = 0;
+			setTimeout(function() { // <-- Simulate network congestion, remove setTimeout from production!
+				wrapper.refresh(); /****remember to refresh after action completed！！！   ---id.refresh(); --- ****/
+				canChange = 1;
+			}, 2000);
+		}

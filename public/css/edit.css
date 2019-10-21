@@ -1,0 +1,183 @@
+/*#editForm .basicInfo {
+	width: 105%;
+	border: solid thin gray;
+}
+
+#editForm .basicInfo .col-md-2.required:after {
+	content: "*:";
+	color: red;
+	font-weight: bold;
+}
+
+#editForm .basicInfo .col-md-2:after {
+	content: ":";
+}
+
+#editForm .basicInfo div {
+	height: 30px;
+	line-height: 30px;
+	margin-top: 5px;
+	font-size: 15px;
+}
+
+#editForm .basicInfo div.col-md-2 {
+	text-align: right;
+}
+
+#editForm .basicInfo div.col-md-4 {
+	text-align: center;
+}
+
+#editForm .operation div {
+	margin-top: 15px;
+}
+
+#editForm .title label {
+	font-weight: bold;
+	margin-top: 15px;
+}
+
+img.preview {
+	display: block;
+	width: 180px;
+	height: 150px;
+	border: solid thin rgba(0, 0, 0, 0.5);
+	cursor: pointer;
+}*/
+
+/*div.operation  {
+	margin-top: 15px;
+}
+
+.edit_table {
+	width: 100%;
+	border-collapse: collapse;
+	border-spacing: 0;
+	border-left: 1px solid rgba(216, 139, 210, 0.2);
+	border-top: 1px solid rgba(216, 139, 210, 0.2);
+	margin-bottom: 8px;
+}
+
+.edit_table th,
+.edit_table td {
+	border-right: 1px solid rgba(216, 139, 210, 0.2);
+	border-bottom: 1px solid rgba(216, 139, 210, 0.2);
+	padding: 5px 15px;
+}
+
+.edit_table th {
+	text-align: right;
+	background: #F5F5F5;
+	height: 45px;
+	line-height: 45px;
+	padding-right: 8px;
+	font-size: 14px;
+	color: darkgreen;
+}
+
+.edit_table td.title {
+	text-align: left;
+    height: 20px;
+    padding-left: 15px;
+    font-size: 19px;
+    letter-spacing: 1em;
+    background:#DDDDDE;
+    font-weight: bolder;
+}
+
+.edit_table th.required:after {
+	content: "*:";
+}
+
+.edit_table th:after {
+	content: ":";
+}
+
+.edit_table td {
+	background: rgba(247, 247, 249, 0.39);
+	text-align: left;
+	padding-left: 8px;
+}
+
+span#errSpan {
+	color: red;
+}
+
+div.viewContent {
+	display: none;
+}
+
+.edit_table #picDiv img{
+	width:120px;
+	height:130px;
+	border: solid 1px gray;
+	cursor: pointer;
+}
+
+.edit_table #picDiv div,.edit_table #picDiv>img{
+	float: left;
+    width: 120px;
+    height: 150px;
+    margin-right: 10px;
+    margin-top:15px;
+}
+
+.edit_table #picDiv div>div{
+	text-align: center;
+    background: gray;
+    cursor: pointer;
+    height: 20px;
+    color: white;
+    margin-top:0px;
+}
+
+.edit_table #picDiv div>div:hover{
+	background: red;
+}*/
+table.edit_table{  
+    /* -moz-border-radius: 5px;  
+    -webkit-border-radius:5px;  
+    border-radius:5px; */  
+    width: 100%;  
+    border:solid #ccc;   
+    border-width:1px 0px 0px 1px;  
+    font-size: #ccc;  
+    border-collapse: collapse;  
+    border-spacing: 0;  
+}  
+table.edit_table tbody tr{  
+    height: 20px;  
+    line-height: 20px;  
+}  
+table.edit_table tbody tr.odd{  
+    background-color: #fff;  
+}  
+table.edit_table tbody tr.even{  
+    background-color: #F5F5F5;  
+}  
+/*table.edit_table tbody tr:hover{  
+    background-color: #eee;  
+}  */
+table.edit_table tbody tr th,table.edit_table tbody tr td{  
+    padding:5px 5px;  
+    text-align: left;  
+    /* border: 1px solid #ddd; */  
+    border:solid #ccc;   
+    border-width:0px 1px 1px 0px;  
+    color:#666; 
+}  
+table.edit_table tbody tr th{  
+    font-weight: bold;  
+    text-align: left;  
+    background-color: #f7f9fa;
+    /*color:#46B964!important;*/
+    padding:0px 12px 0px 12px;  
+}  
+  
+table.edit_table tbody tr td.tac{  
+    text-align: center;  
+}  
+table.edit_table tbody tr td a:hover{  
+    color:#0080c0;  
+}  
+

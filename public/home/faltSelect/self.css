@@ -1,0 +1,74 @@
+.layui-form-item{
+	/*border:1px solid #aaa;*/
+	border:none;
+	width:300px;
+}
+
+.layui-input{
+	width:300px;
+	border:none!important;
+	margin-bottom: 0px;
+	height:35px;
+	text-indent:10px;
+	outline: none!important;
+	background-color: #eee!important;
+}
+.layui-input:focus{outline:none;}
+
+.fileId{
+	padding:0px;
+	margin:0px;
+}
+
+.fileId dl{
+	/*border:1px solid #eee;*/
+	background-color: white;
+	padding:0px!important;
+	margin:0px!important;
+	max-height: 200px;
+	overflow-y:scroll;
+	overflow-x: hidden;
+}
+.fileId dl dd{
+	border:1px solid #eee;
+	border-top:none;
+	height:35px;
+	line-height: 35px;
+	text-indent: 10px;
+	margin-top: 0px;
+	/*background-color: red;*/
+	cursor: pointer;
+}
+.fileId dl dd:hover {
+			background-color: #6FB3E0;
+			color: white;
+		}
+.AD .label{
+	height:25px;
+	width: auto;
+	border-radius: 3px;
+	background-color: #6FB3E0!important;
+	text-align: center;
+	margin-right: 5px;
+	margin-bottom:5px;
+}
+
+.AD .label span{
+	height:25px;
+	color:white;
+	line-height: 25px;
+}
+
+.AD .label span{
+	height:25px;
+	color:white;
+	line-height: 20px;
+}
+
+.AD .label i{
+	margin-left: 5px;
+	font-size: 16px;
+	/*color:#fff;*/
+	position:relative;
+	top:3px;
+}

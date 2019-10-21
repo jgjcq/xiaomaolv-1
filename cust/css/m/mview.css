@@ -1,0 +1,131 @@
+.viewContent {
+	background: #E4E6E9;
+	padding-bottom:25px;
+}
+
+.viewContent .cartitle {
+	display: block;
+	color: black;
+	padding: 8px 5px 8px 18px;
+	font-size: 15px;
+}
+
+.viewContent .bgwhite {
+	background: white;
+}
+
+.viewContent img {
+	width: 100%;
+	height: 185px;
+	border: solid 1px rgba(211, 212, 213, 0.5);
+}
+
+.viewContent div.bInfo {
+	background: #6299F4;
+	height:25px;
+	line-height: 25px;
+	color:white;
+	width:100%;
+}
+
+.viewContent div.bInfo span{
+	display: block;
+	float:left;
+	text-align: center;
+	width:33%;
+}
+
+.viewContent div.tip {
+	display: block;
+	height: 15px;
+	margin-top: -18px;
+	background: transparent;
+	font-size: 15px;
+	line-height: 15px;
+}
+
+.viewContent div.tip .picNum {
+	text-align: right;
+}
+
+.viewContent div.tip .picNum span {
+	padding: 0 5px;
+	background: rgba(0, 0, 0, 0.3);
+	color: white;
+}
+
+.viewContent .price {
+	color: red;
+	font-size: 10px;
+	padding: 5px 0;
+	padding-left: 18px;
+}
+
+.viewContent .price font {
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+.basicInfo {
+	margin-top: 18px;
+	height:250px;
+}
+
+span.infoTitle {
+	display: block;
+	font-size: 15px;
+	padding: 12px 0 12px 8px;
+	border-bottom: solid 1px rgba(211, 212, 213, 0.5);
+}
+
+
+.basicInfo div[class*='col-xs'] {
+	border-left: solid 1px rgba(211, 212, 213, 0.5);
+	border-bottom: solid 1px rgba(211, 212, 213, 0.5);
+	height: 68px;
+	text-align: center;
+	padding-top: 15px;
+}
+
+.basicInfo div[class*='col-xs'] span {
+	color: .black;
+	font-size: 13px;
+	display: block;
+	text-align: center;
+}
+
+.basicInfo div[class*='col-xs'] subspan {
+	color: #D8D8D8;
+	font-size: 12px;
+	display: block;
+	text-align: center;
+}
+
+.basicInfo .v2{
+	padding-top:12px;
+	display: block;
+}
+
+div.introduce{
+	margin-top:18px;
+}
+
+div.introduce div{
+	padding:10px;
+}
+
+.userDiv{
+	margin-top:18px;
+}
+
+.userDiv div{
+	height:35px;
+	line-height: 35px;
+	font-size: 15px;
+	border-bottom: solid 1px rgba(211, 212, 213, 0.5);
+	padding-left:18px;
+}
+
+.userDiv i{
+	margin-right:12px;
+}

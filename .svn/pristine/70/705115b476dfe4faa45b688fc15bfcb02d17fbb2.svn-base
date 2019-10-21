@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width,initial-scale=1,minimum-scale=1,maximum-scale=1,user-scalable=no" />
+		<!-- 控制浏览器缓存 -->
+		<meta http-equiv="Cache-Control" content="no-store" />
+		<!-- 优先使用 IE 最新版本和 Chrome -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
+		<!-- 页面描述 -->
+		<meta name="description" content="不超过150个字符" />
+		<!-- 页面关键词 -->
+		<meta name="keywords" content="" />
+		<title>物业支付</title>
+		<style>
+			* {
+				margin: 0;
+				padding: 0;
+				box-sizing: border-box;
+			}
+			
+			html,
+			body {
+				height: 100%;
+				overflow: hidden;
+			}
+			
+			
+		</style>
+	</head>
+	<body>
+		<div class="wrap">
+			<form action="" class="edit_cash">
+				<p>消费总额</p>
+				<div class="shuru">
+					<span>&yen;</span>
+					<div id="div"></div>
+				</div>
+				<p>可询问工作人员应缴费用总额</p>
+			</form>
+			<input type="submit" value="支付" class="submit" />
+		</div>
+		<div class="layer"></div>
+		<!-- <div class="form">
+			<form action="" method="post">
+				<input type="text" placeholder="姓名" />
+				<input type="text" placeholder="联系电话" />
+				<input type="submit" value="提交" class="infor-sub" />
+			</form>
+		</div> -->
+		<div class="layer-content">
+			<div class="form_edit clearfix">
+				<div class="num">1</div>
+				<div class="num">2</div>
+				<div class="num">3</div>
+				<div class="num">4</div>
+				<div class="num">5</div>
+				<div class="num">6</div>
+				<div class="num">7</div>
+				<div class="num">8</div>
+				<div class="num">9</div>
+				<div class="num">.</div>
+				<div class="num">0</div>
+				<div id="remove">删除</div>
+			</div>
+		</div>
+		<script src="http://www.jq22.com/jquery/jquery-1.10.2.js"></script>
+		<script>
+			$(function(){
+				
+				//填写信息
+				$('.infor-sub').click(function(e){
+					$('.layer').hide();
+					$('.form').hide();
+					e.preventDefault();		//阻止表单提交
+				})
+				// 监听#div内容变化，改变支付按钮的颜色
+				$('#div').bind('DOMNodeInserted', function(){
+					if($("#div").text()!="" || $("#div").text()>'0'){
+						$('.submit').removeClass('active');
+						$('.submit').attr('disabled', false);
+					}else{
+						$('.submit').addClass('active');
+						$('.submit').attr('disabled', true);
+					}
+				})
+				$('#div').trigger('DOMNodeInserted');
+				
+				$('.shuru').click(function(e){
+					$('.layer-content').animate({
+						bottom: 0
+					}, 200)
+					e.stopPropagation();
+				})
+				$('.wrap').click(function(){
+					$('.layer-content').animate({
+						bottom: '-200px'
+					}, 200)
+				})
+				
+				$('.form_edit .num').click(function(){
+					var oDiv = document.getElementById("div");
+					oDiv.innerHTML += this.innerHTML;
+				})
+				$('#remove').click(function(){
+					var oDiv = document.getElementById("div");
+					var oDivHtml = oDiv.innerHTML;
+					oDiv.innerHTML = oDivHtml.substring(0,oDivHtml.length-1);
+				})
+			})
+		</script>
+	</body>
+</html>

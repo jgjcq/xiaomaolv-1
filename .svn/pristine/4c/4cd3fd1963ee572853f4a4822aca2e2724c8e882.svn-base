@@ -1,0 +1,2 @@
+<script type="text/javascript" src="public/h_ui/lib/hcharts/Highcharts/5.0.6/js/highcharts.js"></script>
+<script type="text/javascript" src="public/h_ui/lib/hcharts/Highcharts/5.0.6/js/modules/exporting.js"></script>

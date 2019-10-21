@@ -1,0 +1,211 @@
+<html lang="en"><head>
+<meta charset="UTF-8">
+<title>Document</title>
+<style type="text/css">
+		*{
+			margin: 0;
+			padding: 0;
+		}
+		body{
+			font-size: 14px;
+			line-height: 1.42857143;
+		}
+		ul{
+			list-style: none;
+		}
+
+		.container{
+			width: 50%;
+			margin: 0 auto;
+			padding-top: 50px;
+		}
+		.fl{
+			float: left;
+		}
+		.fr{
+			float: right;
+		}
+		.clearfix:before,
+		.clearfix:after{
+			display: table;
+			content: " ";
+			clear: both;
+		}
+		.tree{
+			margin-left: 20px;
+		}
+	</style>
+<link rel="stylesheet" href="yntree.min.css">
+</head>
+<body>
+<div class="container clearfix">
+
+<div id="tree" class=" fl tree"></div>
+<!-- <div id="tree2" class=" fl tree"></div> -->
+<button id="select_del">选中删除用户</button>
+<button id="cancle_select_del">取消选中删除用户</button>
+<button id="get_selected_vals">获取选中的值</button>
+<button id="create_tree">再建一颗树</button>
+<button id="destroy_tree">销毁</button>
+<button id="reInit_tree">重新初始化</button>
+</div>
+
+<script type="text/javascript" src="yntree.js"></script>
+<script type="text/javascript">
+		var treeData = {
+			// 复选框change事件
+			onchange: function (input, yntree){
+				console.log(this);
+			},
+			// 是否严格的遵循父子互相关联的做法
+			checkStrictly: true,
+			data:[
+				{
+					name: "系统管理",
+					inputName: "system",
+					value: "系统管理",
+					children: [
+						{
+							// 树名称
+							name: "用户管理",
+							// 复选框的name属性值
+							inputName: "user",
+							// 复选框的值
+							value: "用户管理",
+							// 复选框的class
+							className: "",
+							// 默认是否选中
+							checked: false,
+							// 是否禁用
+							disabled: false,
+							// 额外数据，如果数据是基本数据类型，则会以data-xx="yyy"的形式附加到复选框中
+							datas: {
+
+							},
+							children: [
+								{
+									name: "添加用户",
+									inputName: "user",
+									value: "添加用户",
+									checked: false,
+									disabled: true
+								},
+								{
+									name: "查看用户",
+									inputName: "user",
+									value: "查看用户"
+								},
+								{
+									name: "编辑用户",
+									inputName: "user",
+									value: "编辑用户",
+									disabled: true,
+									children: [
+										{
+											name: "删除用户",
+											inputName: "user",
+											value: "删除用户"
+										},
+										{
+											name: "修改用户",
+											inputName: "user",
+											value: "修改用户",
+											checked: false
+										}
+									]
+								}
+								
+							]
+						},
+						{
+							name: "投诉管理",
+							inputName: "complaint",
+							value: "投诉管理",
+							checked: false,
+							children: [
+								{
+									name: "添加投诉",
+									inputName: "complaint",
+									value: "添加投诉"
+								},
+								{
+									name: "删除投诉",
+									inputName: "complaint",
+									value: "删除投诉"
+								},
+								{
+									name: "编辑投诉",
+									inputName: "complaint",
+									value: "编辑投诉"
+								},
+								{
+									name: "查看投诉",
+									inputName: "complaint",
+									value: "查看投诉"
+								}
+							]
+						}
+					]
+				},
+				{
+					name: "我的公司",
+					inputName: "company",
+					value: "我的公司",
+					children: [
+						{
+							name: "公司管理",
+							inputName: "company manage",
+							value: "公司管理"
+						},
+						{
+							name: "部门管理",
+							inputName: "department manage",
+							value: "部门管理"
+						}
+					]
+				}
+			]
+		};
+
+
+
+		var yntree = new YnTree(document.getElementById("tree"), treeData);
+		//var yntree = new YnTree(document.getElementById("tree"), {data: []});
+		console.log(treeData);
+		//new YnTree(document.getElementById("tree2"), treeData);
+		//yntree.data[0].children[1].children[2].select(true);
+		//yntree.data[0].children[1].select(true);
+		//yntree.data[0].select(true);
+		//yntree.data[0].children[1].children[2].selectUp(true);
+		//console.log(yntree.data[0].children[0].children[1].disable(true));
+		
+		yntree.data[0].spread(true);
+		yntree.data[0].children[1].spread(true);
+		yntree.data[0].children[1].children[2].spread(true);
+
+		yntree.disable("查看用户", true);
+		yntree.disable("添加用户", false);
+		document.getElementById("select_del").onclick = function (){
+			yntree.select("删除用户", true);
+		}
+		document.getElementById("cancle_select_del").onclick = function (){
+			yntree.select("删除用户", false);
+		}
+		document.getElementById("get_selected_vals").onclick = function (){
+			alert(yntree.getValues());
+		}
+		document.getElementById("create_tree").onclick = function (){
+			new YnTree(document.getElementById("tree2"), treeData);
+		}
+		document.getElementById("destroy_tree").onclick = function (){
+			yntree.destroy();
+			console.log(yntree);
+		}
+		document.getElementById("reInit_tree").onclick = function (){
+			yntree.reInit(treeData.data);
+			console.log(yntree);
+		}
+		
+	</script>
+
+</body></html>

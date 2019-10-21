@@ -1,0 +1,1 @@
+<script src="<?php echo base_url().'public/home/' ?>cryptojs/crypto-js.js"></script>

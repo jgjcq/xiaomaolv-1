@@ -1,0 +1,22 @@
+﻿.liubai{
+    height:10px;
+    width:100%;
+    background-color: #f0f0f0;
+  }
+  .liubai2{
+    height:30px;
+    width:100%;
+    background-color: #fff;
+  }
+  h1 a{
+    color: white;
+    display: inline-block;
+    font-size: 15px;
+  }
+  .disnone{
+    display: none;
+
+  }
+  .head_img{
+    cursor:pointer;
+  }

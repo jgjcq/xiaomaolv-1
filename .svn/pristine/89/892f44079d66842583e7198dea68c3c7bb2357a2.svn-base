@@ -1,0 +1,2 @@
+<script src="<?php echo base_url(); ?>public/home/scroll/iscroll.js" type="text/javascript" charset="utf-8"></script>
+<script src="<?php echo base_url(); ?>public/home/scroll/pullToRefresh.js" type="text/javascript" charset="utf-8"></script>

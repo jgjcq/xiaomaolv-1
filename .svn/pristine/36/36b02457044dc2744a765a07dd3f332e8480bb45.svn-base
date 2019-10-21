@@ -1,0 +1,20 @@
+$(".widget-sider").sider({
+			         min:0, //最小值
+			         max:200, //最大值
+			         step:1, //拖动步长
+			         quick:[20,40,60,80,100,120,140,160,180,200], //快速选择列表
+			         value:20, //默认值
+			         callback:function(_this,value,status){ 
+			            //回调函数， 反回3个参数，
+			            //_this : 当前元素
+			            //value : 选取的值
+			            //status : 是否选择完毕
+			            $('.volume').val(value);
+			            // alert(value);
+			            if(status) 
+			               $("#callback").css("border","1px solid #f60");
+			            else
+			               $("#callback").css("border","1px solid #d7d7d7");
+			         }
+			      });
+			$('.widget-sider .form-control').attr('readOnly',true);
