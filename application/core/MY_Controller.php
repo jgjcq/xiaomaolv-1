@@ -103,13 +103,13 @@ class HomeController extends MY_Controller{
 
         $this -> load -> model("User_model");
         $this -> load -> model("Order_detail_model");
-        //$user = $this->User_model->get_single(array('id'=>1));
-        //$_SESSION['app_home_session'] = $user;
+        $user = $this->User_model->get_single(array('id'=>1));
+        $_SESSION['app_home_session'] = $user;
         if(!$notLogin){
             if(!isset($_SESSION['app_home_session']))
             {
                 $url = 'http://'.$_SERVER['HTTP_HOST'].$_SERVER['REQUEST_URI'];
-                $retUrl =  $this->wechat_oauth->getOauthRedirect("http://fineui.dye360.cn/Home/Login",urlencode($url),'snsapi_userinfo');
+                $retUrl =  $this->wechat_oauth->getOauthRedirect($url,'','snsapi_userinfo');
                 redirect($retUrl);
             }
             $this -> checkIsLogin();
@@ -306,19 +306,7 @@ class AdminController extends MY_Controller{
 		$this -> checkIsLogin();
 		$this->getModuleViewAndCheckRoleModule();
 		$this->getQuickEntry();
-        # 配置参数
-        $config = array(
-            'token'          => 'jgjcq',
-            'appid'          => 'wxb9683d953c243b43',
-            'appsecret'      => '1a3631550363b5701a76841ef12a5d8f',
-            'encodingaeskey' => '',
-            'type'			 => 'user',
-        );
-        $this->load->library('Wechat/wechat_receive', $config);
 	}
-    protected function sendMsg($data){
-        $this->wechat_receive->sendTemplateMessage($data);
-    }
 	//验证是否登录
 	protected function checkIsLogin(){
 		   if(!isset($_SESSION[SESS_USER]))
