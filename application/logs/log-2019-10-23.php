@@ -46569,3 +46569,4205 @@ INFO - 2019-10-23 13:17:58 --> 【提示信息】select od.id as did,o.status as
 INFO - 2019-10-23 13:17:58 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myGroup.php
 INFO - 2019-10-23 13:17:58 --> Final output sent to browser
 DEBUG - 2019-10-23 13:17:58 --> Total execution time: 0.3340
+INFO - 2019-10-23 13:21:51 --> Config Class Initialized
+INFO - 2019-10-23 13:21:51 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:21:52 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:21:52 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:21:52 --> URI Class Initialized
+INFO - 2019-10-23 13:21:52 --> Router Class Initialized
+INFO - 2019-10-23 13:21:52 --> Output Class Initialized
+INFO - 2019-10-23 13:21:52 --> Security Class Initialized
+DEBUG - 2019-10-23 13:21:52 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:21:52 --> Input Class Initialized
+INFO - 2019-10-23 13:21:52 --> Language Class Initialized
+INFO - 2019-10-23 13:21:52 --> Loader Class Initialized
+INFO - 2019-10-23 13:21:52 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:21:52 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:21:52 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:21:52 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:21:52 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:21:52 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:21:52 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:21:53 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:21:53 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:21:53 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:21:53 --> Pagination Class Initialized
+INFO - 2019-10-23 13:21:53 --> User Agent Class Initialized
+INFO - 2019-10-23 13:21:53 --> Controller Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:21:53 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:21:53 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:21:53 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:21:53 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:21:53 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:21:53 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> Model Class Initialized
+INFO - 2019-10-23 13:21:53 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:21:53 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:21:53 --> Final output sent to browser
+DEBUG - 2019-10-23 13:21:53 --> Total execution time: 2.1241
+INFO - 2019-10-23 13:22:05 --> Config Class Initialized
+INFO - 2019-10-23 13:22:05 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:22:05 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:22:05 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:22:05 --> URI Class Initialized
+INFO - 2019-10-23 13:22:05 --> Router Class Initialized
+INFO - 2019-10-23 13:22:05 --> Output Class Initialized
+INFO - 2019-10-23 13:22:05 --> Security Class Initialized
+DEBUG - 2019-10-23 13:22:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:22:05 --> Input Class Initialized
+INFO - 2019-10-23 13:22:05 --> Language Class Initialized
+INFO - 2019-10-23 13:22:05 --> Loader Class Initialized
+INFO - 2019-10-23 13:22:05 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:22:05 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:22:05 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:22:05 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:22:05 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:22:05 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:22:05 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:22:05 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:22:05 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:22:05 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:22:05 --> Pagination Class Initialized
+INFO - 2019-10-23 13:22:05 --> User Agent Class Initialized
+INFO - 2019-10-23 13:22:05 --> Controller Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:22:05 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:22:05 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:22:05 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:22:05 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:22:05 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:22:05 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> Model Class Initialized
+INFO - 2019-10-23 13:22:05 --> 【提示信息】SELECT *
+FROM `db_salesman_type`
+INFO - 2019-10-23 13:22:05 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  and in_out = 0 group  by salesman_id
+INFO - 2019-10-23 13:22:05 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:22:05 --> 【提示信息】select od.* from db_order_detail od LEFT JOIN db_order o ON od.order_id = o.id and o.`status` <>3  where od.share_id in (select id from db_share where user_id = 1)
+INFO - 2019-10-23 13:22:05 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/kdb1.php
+INFO - 2019-10-23 13:22:05 --> Final output sent to browser
+DEBUG - 2019-10-23 13:22:05 --> Total execution time: 0.3060
+INFO - 2019-10-23 13:30:54 --> Config Class Initialized
+INFO - 2019-10-23 13:30:54 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:30:54 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:30:54 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:30:54 --> URI Class Initialized
+INFO - 2019-10-23 13:30:54 --> Router Class Initialized
+INFO - 2019-10-23 13:30:54 --> Output Class Initialized
+INFO - 2019-10-23 13:30:55 --> Security Class Initialized
+DEBUG - 2019-10-23 13:30:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:30:55 --> Input Class Initialized
+INFO - 2019-10-23 13:30:55 --> Language Class Initialized
+INFO - 2019-10-23 13:30:55 --> Loader Class Initialized
+INFO - 2019-10-23 13:30:55 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:30:55 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:30:55 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:30:55 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:30:55 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:30:55 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:30:55 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:30:55 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:30:55 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:30:55 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:30:55 --> Pagination Class Initialized
+INFO - 2019-10-23 13:30:55 --> User Agent Class Initialized
+INFO - 2019-10-23 13:30:55 --> Controller Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:30:55 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:30:55 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:30:55 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:30:55 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:30:55 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:30:55 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> Model Class Initialized
+INFO - 2019-10-23 13:30:55 --> 【提示信息】SELECT *
+FROM `db_salesman_type`
+INFO - 2019-10-23 13:30:55 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  and in_out = 0 group  by salesman_id
+INFO - 2019-10-23 13:30:55 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:30:55 --> 【提示信息】select od.* from db_order_detail od LEFT JOIN db_order o ON od.order_id = o.id and o.`status` <>3  where od.share_id in (select id from db_share where user_id = 1)
+INFO - 2019-10-23 13:30:56 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/kdb1.php
+INFO - 2019-10-23 13:30:56 --> Final output sent to browser
+DEBUG - 2019-10-23 13:30:56 --> Total execution time: 1.1241
+INFO - 2019-10-23 13:37:01 --> Config Class Initialized
+INFO - 2019-10-23 13:37:01 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:01 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:01 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:01 --> URI Class Initialized
+INFO - 2019-10-23 13:37:01 --> Router Class Initialized
+INFO - 2019-10-23 13:37:01 --> Output Class Initialized
+INFO - 2019-10-23 13:37:01 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:01 --> Input Class Initialized
+INFO - 2019-10-23 13:37:01 --> Language Class Initialized
+INFO - 2019-10-23 13:37:01 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:01 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:01 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:01 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:01 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:01 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:01 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:01 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:01 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:01 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:01 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:01 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:01 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:01 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:01 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:01 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:01 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:01 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:01 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> Model Class Initialized
+INFO - 2019-10-23 13:37:01 --> 【提示信息】select sd.create_time as visit_time,c.*,u.head_img,u.username from db_share_detail sd LEFT JOIN db_share s ON sd.share_id = s.id LEFT JOIN db_course c ON c.id = s.course_id LEFT JOIN db_user u ON u.id = sd.vist_id where sd.share_id in (select id from db_share where user_id = 1)
+INFO - 2019-10-23 13:37:01 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myVists.php
+INFO - 2019-10-23 13:37:01 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:01 --> Total execution time: 0.2106
+INFO - 2019-10-23 13:37:03 --> Config Class Initialized
+INFO - 2019-10-23 13:37:03 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:03 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:03 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:03 --> URI Class Initialized
+INFO - 2019-10-23 13:37:03 --> Router Class Initialized
+INFO - 2019-10-23 13:37:03 --> Output Class Initialized
+INFO - 2019-10-23 13:37:03 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:03 --> Input Class Initialized
+INFO - 2019-10-23 13:37:03 --> Language Class Initialized
+INFO - 2019-10-23 13:37:03 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:03 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:03 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:03 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:03 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:03 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:03 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:03 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:03 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:03 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:03 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:03 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:03 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:03 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:03 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:03 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:03 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:03 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:03 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:03 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> Model Class Initialized
+INFO - 2019-10-23 13:37:03 --> 【提示信息】SELECT *
+FROM `db_salesman_type`
+INFO - 2019-10-23 13:37:03 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  and in_out = 0 group  by salesman_id
+INFO - 2019-10-23 13:37:03 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:37:03 --> 【提示信息】select od.* from db_order_detail od LEFT JOIN db_order o ON od.order_id = o.id and o.`status` <>3  where od.share_id in (select id from db_share where user_id = 1)
+INFO - 2019-10-23 13:37:03 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/kdb1.php
+INFO - 2019-10-23 13:37:03 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:03 --> Total execution time: 0.1930
+INFO - 2019-10-23 13:37:04 --> Config Class Initialized
+INFO - 2019-10-23 13:37:04 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:04 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:04 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:04 --> URI Class Initialized
+INFO - 2019-10-23 13:37:04 --> Router Class Initialized
+INFO - 2019-10-23 13:37:04 --> Output Class Initialized
+INFO - 2019-10-23 13:37:04 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:04 --> Input Class Initialized
+INFO - 2019-10-23 13:37:04 --> Language Class Initialized
+INFO - 2019-10-23 13:37:04 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:04 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:04 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:04 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:04 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:04 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:04 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:04 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:04 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:04 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:04 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:04 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:04 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:04 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:04 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:04 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:04 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:04 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:04 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:04 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> Model Class Initialized
+INFO - 2019-10-23 13:37:04 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:37:04 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:37:04 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:04 --> Total execution time: 0.2510
+INFO - 2019-10-23 13:37:10 --> Config Class Initialized
+INFO - 2019-10-23 13:37:10 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:10 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:10 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:10 --> URI Class Initialized
+INFO - 2019-10-23 13:37:10 --> Router Class Initialized
+INFO - 2019-10-23 13:37:10 --> Output Class Initialized
+INFO - 2019-10-23 13:37:10 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:10 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:10 --> Input Class Initialized
+INFO - 2019-10-23 13:37:10 --> Language Class Initialized
+INFO - 2019-10-23 13:37:10 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:10 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:10 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:10 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:10 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:10 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:10 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:10 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:10 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:10 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:10 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:10 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:10 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:10 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:10 --> Model Class Initialized
+INFO - 2019-10-23 13:37:10 --> Model Class Initialized
+INFO - 2019-10-23 13:37:10 --> Model Class Initialized
+INFO - 2019-10-23 13:37:10 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:10 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:10 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:10 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:10 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:10 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:10 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:10 --> Model Class Initialized
+INFO - 2019-10-23 13:37:10 --> Model Class Initialized
+INFO - 2019-10-23 13:37:10 --> Model Class Initialized
+INFO - 2019-10-23 13:37:10 --> Model Class Initialized
+INFO - 2019-10-23 13:37:10 --> 【提示信息】SELECT *
+FROM `db_coupon_user`
+WHERE `user_id` = 1
+INFO - 2019-10-23 13:37:10 --> 【提示信息】select * from db_course where max_coupon >0 and status = 1 and id not in (select od.course_id from db_order_detail od LEFT JOIN db_order o ON od.order_id = o.id where o.status <> 3 and od.user_id = 1) order by max_coupon desc
+INFO - 2019-10-23 13:37:10 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/couponList.php
+INFO - 2019-10-23 13:37:10 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:10 --> Total execution time: 0.2786
+INFO - 2019-10-23 13:37:16 --> Config Class Initialized
+INFO - 2019-10-23 13:37:16 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:16 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:16 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:16 --> URI Class Initialized
+INFO - 2019-10-23 13:37:16 --> Router Class Initialized
+INFO - 2019-10-23 13:37:16 --> Output Class Initialized
+INFO - 2019-10-23 13:37:16 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:16 --> Input Class Initialized
+INFO - 2019-10-23 13:37:16 --> Language Class Initialized
+INFO - 2019-10-23 13:37:16 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:16 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:16 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:16 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:16 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:16 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:16 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:16 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:16 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:16 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:16 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:16 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:16 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:16 --> Model Class Initialized
+INFO - 2019-10-23 13:37:16 --> Model Class Initialized
+INFO - 2019-10-23 13:37:16 --> Model Class Initialized
+INFO - 2019-10-23 13:37:16 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:16 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:16 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:16 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:16 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:16 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:16 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:16 --> Model Class Initialized
+INFO - 2019-10-23 13:37:16 --> Model Class Initialized
+INFO - 2019-10-23 13:37:16 --> 【提示信息】SELECT *
+FROM `db_banner`
+ORDER BY `sort` asc
+INFO - 2019-10-23 13:37:16 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+INFO - 2019-10-23 13:37:16 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:37:16 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+INFO - 2019-10-23 13:37:16 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:37:16 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/index.php
+INFO - 2019-10-23 13:37:16 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:16 --> Total execution time: 0.3066
+INFO - 2019-10-23 13:37:20 --> Config Class Initialized
+INFO - 2019-10-23 13:37:20 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:20 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:20 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:20 --> URI Class Initialized
+INFO - 2019-10-23 13:37:20 --> Router Class Initialized
+INFO - 2019-10-23 13:37:20 --> Output Class Initialized
+INFO - 2019-10-23 13:37:20 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:20 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:20 --> Input Class Initialized
+INFO - 2019-10-23 13:37:20 --> Language Class Initialized
+INFO - 2019-10-23 13:37:20 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:20 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:20 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:20 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:20 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:20 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:20 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:20 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:20 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:20 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:20 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:20 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:20 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:20 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:20 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:20 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:20 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:20 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:20 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:20 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> Model Class Initialized
+INFO - 2019-10-23 13:37:20 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `course_type` = 1 and `status` = 1
+ORDER BY `id` desc
+INFO - 2019-10-23 13:37:20 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/courseTypeList.php
+INFO - 2019-10-23 13:37:20 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:20 --> Total execution time: 0.2700
+INFO - 2019-10-23 13:37:21 --> Config Class Initialized
+INFO - 2019-10-23 13:37:21 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:21 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:21 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:21 --> URI Class Initialized
+INFO - 2019-10-23 13:37:21 --> Router Class Initialized
+INFO - 2019-10-23 13:37:21 --> Output Class Initialized
+INFO - 2019-10-23 13:37:21 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:21 --> Input Class Initialized
+INFO - 2019-10-23 13:37:21 --> Language Class Initialized
+INFO - 2019-10-23 13:37:21 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:21 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:21 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:21 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:21 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:21 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:21 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:21 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:21 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:21 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:21 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:21 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:21 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:21 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:21 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:21 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:21 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:21 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:21 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:21 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> Model Class Initialized
+INFO - 2019-10-23 13:37:21 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE 1 = 1 and `course_type` = 1
+INFO - 2019-10-23 13:37:21 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE 1 = 1 and `course_type` = 1
+ORDER BY `id` desc
+ LIMIT 5
+INFO - 2019-10-23 13:37:21 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:21 --> Total execution time: 0.1740
+INFO - 2019-10-23 13:37:21 --> Config Class Initialized
+INFO - 2019-10-23 13:37:21 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:21 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:21 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:21 --> URI Class Initialized
+INFO - 2019-10-23 13:37:21 --> Router Class Initialized
+INFO - 2019-10-23 13:37:21 --> Output Class Initialized
+INFO - 2019-10-23 13:37:21 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:21 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:21 --> Input Class Initialized
+INFO - 2019-10-23 13:37:21 --> Language Class Initialized
+ERROR - 2019-10-23 13:37:21 --> 404 页面走丢了: Upload/article
+INFO - 2019-10-23 13:37:30 --> Config Class Initialized
+INFO - 2019-10-23 13:37:30 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:30 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:30 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:30 --> URI Class Initialized
+INFO - 2019-10-23 13:37:30 --> Router Class Initialized
+INFO - 2019-10-23 13:37:30 --> Output Class Initialized
+INFO - 2019-10-23 13:37:30 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:30 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:30 --> Input Class Initialized
+INFO - 2019-10-23 13:37:30 --> Language Class Initialized
+INFO - 2019-10-23 13:37:30 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:30 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:30 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:30 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:30 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:30 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:30 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:30 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:30 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:30 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:30 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:30 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:30 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:30 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:30 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:30 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:30 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:30 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:30 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:30 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> Model Class Initialized
+INFO - 2019-10-23 13:37:30 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/courseList.php
+INFO - 2019-10-23 13:37:30 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:30 --> Total execution time: 0.1970
+INFO - 2019-10-23 13:37:35 --> Config Class Initialized
+INFO - 2019-10-23 13:37:35 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:35 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:35 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:35 --> URI Class Initialized
+INFO - 2019-10-23 13:37:35 --> Router Class Initialized
+INFO - 2019-10-23 13:37:35 --> Config Class Initialized
+INFO - 2019-10-23 13:37:35 --> Hooks Class Initialized
+INFO - 2019-10-23 13:37:35 --> Output Class Initialized
+INFO - 2019-10-23 13:37:35 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:35 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:35 --> Utf8 Class Initialized
+DEBUG - 2019-10-23 13:37:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:35 --> URI Class Initialized
+INFO - 2019-10-23 13:37:35 --> Input Class Initialized
+INFO - 2019-10-23 13:37:35 --> Language Class Initialized
+INFO - 2019-10-23 13:37:35 --> Router Class Initialized
+INFO - 2019-10-23 13:37:35 --> Output Class Initialized
+INFO - 2019-10-23 13:37:35 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:35 --> Security Class Initialized
+INFO - 2019-10-23 13:37:35 --> Helper loaded: func_helper
+DEBUG - 2019-10-23 13:37:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:35 --> Input Class Initialized
+INFO - 2019-10-23 13:37:35 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:35 --> Language Class Initialized
+INFO - 2019-10-23 13:37:35 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:35 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:35 --> Helper loaded: log_helper
+ERROR - 2019-10-23 13:37:35 --> 404 页面走丢了: Upload/article
+INFO - 2019-10-23 13:37:35 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:35 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:35 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:35 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:35 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:35 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:35 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:35 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:35 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:35 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:35 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:35 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:35 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:35 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> Model Class Initialized
+INFO - 2019-10-23 13:37:35 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE 1 = 1 and `course_type` = 1
+INFO - 2019-10-23 13:37:35 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE 1 = 1 and `course_type` = 1
+ORDER BY `id` desc
+ LIMIT 5
+INFO - 2019-10-23 13:37:35 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:35 --> Total execution time: 0.1820
+INFO - 2019-10-23 13:37:35 --> Config Class Initialized
+INFO - 2019-10-23 13:37:35 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:35 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:35 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:35 --> URI Class Initialized
+INFO - 2019-10-23 13:37:35 --> Router Class Initialized
+INFO - 2019-10-23 13:37:35 --> Output Class Initialized
+INFO - 2019-10-23 13:37:35 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:35 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:35 --> Input Class Initialized
+INFO - 2019-10-23 13:37:35 --> Language Class Initialized
+ERROR - 2019-10-23 13:37:35 --> 404 页面走丢了: Upload/article
+INFO - 2019-10-23 13:37:37 --> Config Class Initialized
+INFO - 2019-10-23 13:37:37 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:37 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:37 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:37 --> URI Class Initialized
+INFO - 2019-10-23 13:37:37 --> Router Class Initialized
+INFO - 2019-10-23 13:37:37 --> Output Class Initialized
+INFO - 2019-10-23 13:37:37 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:37 --> Input Class Initialized
+INFO - 2019-10-23 13:37:37 --> Language Class Initialized
+INFO - 2019-10-23 13:37:37 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:37 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:37 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:37 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:37 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:37 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:37 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:37 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:37 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:37 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:37 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:37 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:37 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:37 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:37 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:37 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:37 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:37 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:37 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:37 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> Model Class Initialized
+INFO - 2019-10-23 13:37:37 --> 【提示信息】select c.* from db_order_detail od LEFT JOIN db_order o ON o.id = od.order_id  LEFT JOIN db_course c ON od.course_id = c.id WHERE od.user_id = 1 and o.status = 4 ORDER BY od.create_time desc;
+INFO - 2019-10-23 13:37:37 --> 【提示信息】SELECT * from db_course_detail cd LEFT JOIN db_user_course_detail ucd ON cd.id = ucd.course_detail_id AND ucd.user_id = 1 WHERE cd.course_id = 25
+INFO - 2019-10-23 13:37:37 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myCourse.php
+INFO - 2019-10-23 13:37:37 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:37 --> Total execution time: 0.1560
+INFO - 2019-10-23 13:37:37 --> Config Class Initialized
+INFO - 2019-10-23 13:37:37 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:37 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:37 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:37 --> URI Class Initialized
+INFO - 2019-10-23 13:37:37 --> Router Class Initialized
+INFO - 2019-10-23 13:37:37 --> Output Class Initialized
+INFO - 2019-10-23 13:37:37 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:37 --> Input Class Initialized
+INFO - 2019-10-23 13:37:37 --> Language Class Initialized
+ERROR - 2019-10-23 13:37:37 --> 404 页面走丢了: Coust/images
+INFO - 2019-10-23 13:37:39 --> Config Class Initialized
+INFO - 2019-10-23 13:37:39 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:39 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:39 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:39 --> URI Class Initialized
+INFO - 2019-10-23 13:37:39 --> Router Class Initialized
+INFO - 2019-10-23 13:37:39 --> Output Class Initialized
+INFO - 2019-10-23 13:37:39 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:39 --> Input Class Initialized
+INFO - 2019-10-23 13:37:39 --> Language Class Initialized
+INFO - 2019-10-23 13:37:39 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:39 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:39 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:39 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:39 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:39 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:39 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:39 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:39 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:39 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:39 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:39 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:39 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:39 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:39 --> Model Class Initialized
+INFO - 2019-10-23 13:37:39 --> Model Class Initialized
+INFO - 2019-10-23 13:37:39 --> Model Class Initialized
+INFO - 2019-10-23 13:37:39 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:40 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:40 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:40 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:40 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:40 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:40 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:40 --> Model Class Initialized
+INFO - 2019-10-23 13:37:40 --> Model Class Initialized
+INFO - 2019-10-23 13:37:40 --> Model Class Initialized
+INFO - 2019-10-23 13:37:40 --> Model Class Initialized
+INFO - 2019-10-23 13:37:40 --> Model Class Initialized
+INFO - 2019-10-23 13:37:40 --> Model Class Initialized
+INFO - 2019-10-23 13:37:40 --> Model Class Initialized
+INFO - 2019-10-23 13:37:40 --> 【提示信息】select o.*,od.id as did from db_order_detail od LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and od.course_id = 25 limit 0, 1
+INFO - 2019-10-23 13:37:40 --> 【提示信息】SELECT * from db_course_detail cd LEFT JOIN db_user_course_detail ucd ON cd.id = ucd.course_detail_id AND ucd.user_id = 1 WHERE cd.course_id = 25
+ERROR - 2019-10-23 13:37:40 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\xiaomaolv\application\views\home\myCourseDetail.php 271
+ERROR - 2019-10-23 13:37:40 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\xiaomaolv\application\views\home\myCourseDetail.php 273
+ERROR - 2019-10-23 13:37:40 --> Severity: Notice --> Undefined offset: 0 D:\xampp\htdocs\xiaomaolv\application\views\home\myCourseDetail.php 404
+INFO - 2019-10-23 13:37:40 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myCourseDetail.php
+INFO - 2019-10-23 13:37:40 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:40 --> Total execution time: 0.2006
+INFO - 2019-10-23 13:37:42 --> Config Class Initialized
+INFO - 2019-10-23 13:37:42 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:42 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:42 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:42 --> URI Class Initialized
+INFO - 2019-10-23 13:37:42 --> Router Class Initialized
+INFO - 2019-10-23 13:37:42 --> Output Class Initialized
+INFO - 2019-10-23 13:37:42 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:42 --> Input Class Initialized
+INFO - 2019-10-23 13:37:42 --> Language Class Initialized
+INFO - 2019-10-23 13:37:42 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:42 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:42 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:42 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:42 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:42 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:42 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:42 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:42 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:42 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:42 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:42 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:42 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:42 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:42 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:42 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:42 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:42 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:42 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:42 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> Model Class Initialized
+INFO - 2019-10-23 13:37:42 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:37:42 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:37:42 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:42 --> Total execution time: 0.2246
+INFO - 2019-10-23 13:37:43 --> Config Class Initialized
+INFO - 2019-10-23 13:37:43 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:43 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:43 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:43 --> URI Class Initialized
+INFO - 2019-10-23 13:37:43 --> Router Class Initialized
+INFO - 2019-10-23 13:37:43 --> Output Class Initialized
+INFO - 2019-10-23 13:37:43 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:43 --> Input Class Initialized
+INFO - 2019-10-23 13:37:43 --> Language Class Initialized
+INFO - 2019-10-23 13:37:43 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:43 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:43 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:43 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:43 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:43 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:43 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:43 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:43 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:43 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:43 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:43 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:43 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:43 --> Model Class Initialized
+INFO - 2019-10-23 13:37:43 --> Model Class Initialized
+INFO - 2019-10-23 13:37:43 --> Model Class Initialized
+INFO - 2019-10-23 13:37:43 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:43 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:43 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:43 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:43 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:43 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:43 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> Model Class Initialized
+INFO - 2019-10-23 13:37:44 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:44 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:44 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:44 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:44 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:44 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:44 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1
+INFO - 2019-10-23 13:37:44 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 1
+INFO - 2019-10-23 13:37:44 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 3
+INFO - 2019-10-23 13:37:44 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 4
+INFO - 2019-10-23 13:37:44 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myGroup.php
+INFO - 2019-10-23 13:37:44 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:44 --> Total execution time: 0.2666
+INFO - 2019-10-23 13:37:45 --> Config Class Initialized
+INFO - 2019-10-23 13:37:45 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:45 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:45 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:45 --> URI Class Initialized
+INFO - 2019-10-23 13:37:45 --> Router Class Initialized
+INFO - 2019-10-23 13:37:45 --> Output Class Initialized
+INFO - 2019-10-23 13:37:45 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:45 --> Input Class Initialized
+INFO - 2019-10-23 13:37:45 --> Language Class Initialized
+INFO - 2019-10-23 13:37:45 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:45 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:45 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:45 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:45 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:45 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:45 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:45 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:45 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:45 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:45 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:45 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:45 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:45 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:45 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:45 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:45 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:45 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:45 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> Model Class Initialized
+INFO - 2019-10-23 13:37:45 --> 【提示信息】select od.*,u.id as uid,u.* from db_order_detail od LEFT JOIN db_order o ON od.order_id = o.id LEFT JOIN db_user u ON u.id = od.user_id WHERE  o.course_id = 25 and o.id = 54
+INFO - 2019-10-23 13:37:45 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myGroupDetail.php
+INFO - 2019-10-23 13:37:45 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:45 --> Total execution time: 0.2846
+INFO - 2019-10-23 13:37:55 --> Config Class Initialized
+INFO - 2019-10-23 13:37:55 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:55 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:55 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:55 --> URI Class Initialized
+INFO - 2019-10-23 13:37:55 --> Router Class Initialized
+INFO - 2019-10-23 13:37:55 --> Output Class Initialized
+INFO - 2019-10-23 13:37:55 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:55 --> Input Class Initialized
+INFO - 2019-10-23 13:37:55 --> Language Class Initialized
+INFO - 2019-10-23 13:37:55 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:55 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:55 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:55 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:55 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:55 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:55 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:55 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:55 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:55 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:55 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:55 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:55 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:55 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:55 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> Model Class Initialized
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:55 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:56 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:56 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:56 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:56 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1
+INFO - 2019-10-23 13:37:56 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 1
+INFO - 2019-10-23 13:37:56 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 3
+INFO - 2019-10-23 13:37:56 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 4
+INFO - 2019-10-23 13:37:56 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myGroup.php
+INFO - 2019-10-23 13:37:56 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:56 --> Total execution time: 0.3320
+INFO - 2019-10-23 13:37:56 --> Config Class Initialized
+INFO - 2019-10-23 13:37:56 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:37:56 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:37:56 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:37:56 --> URI Class Initialized
+INFO - 2019-10-23 13:37:56 --> Router Class Initialized
+INFO - 2019-10-23 13:37:56 --> Output Class Initialized
+INFO - 2019-10-23 13:37:56 --> Security Class Initialized
+DEBUG - 2019-10-23 13:37:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:37:56 --> Input Class Initialized
+INFO - 2019-10-23 13:37:56 --> Language Class Initialized
+INFO - 2019-10-23 13:37:56 --> Loader Class Initialized
+INFO - 2019-10-23 13:37:56 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:37:56 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:37:56 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:37:56 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:37:56 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:37:56 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:37:56 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:37:56 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:37:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:37:56 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:37:56 --> Pagination Class Initialized
+INFO - 2019-10-23 13:37:56 --> User Agent Class Initialized
+INFO - 2019-10-23 13:37:56 --> Controller Class Initialized
+INFO - 2019-10-23 13:37:56 --> Model Class Initialized
+INFO - 2019-10-23 13:37:56 --> Model Class Initialized
+INFO - 2019-10-23 13:37:56 --> Model Class Initialized
+INFO - 2019-10-23 13:37:56 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:57 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:37:57 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:57 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:37:57 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:57 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:37:57 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> Model Class Initialized
+INFO - 2019-10-23 13:37:57 --> 【提示信息】select od.*,u.id as uid,u.* from db_order_detail od LEFT JOIN db_order o ON od.order_id = o.id LEFT JOIN db_user u ON u.id = od.user_id WHERE  o.course_id = 21 and o.id = 55
+INFO - 2019-10-23 13:37:57 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myGroupDetail.php
+INFO - 2019-10-23 13:37:57 --> Final output sent to browser
+DEBUG - 2019-10-23 13:37:57 --> Total execution time: 0.1586
+INFO - 2019-10-23 13:38:00 --> Config Class Initialized
+INFO - 2019-10-23 13:38:00 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:00 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:00 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:00 --> URI Class Initialized
+INFO - 2019-10-23 13:38:00 --> Router Class Initialized
+INFO - 2019-10-23 13:38:00 --> Output Class Initialized
+INFO - 2019-10-23 13:38:00 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:00 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:00 --> Input Class Initialized
+INFO - 2019-10-23 13:38:00 --> Language Class Initialized
+INFO - 2019-10-23 13:38:00 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:00 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:00 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:00 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:00 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:00 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:00 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:00 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:00 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:00 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:00 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:00 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:00 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:00 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:00 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> Model Class Initialized
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:00 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:00 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1
+INFO - 2019-10-23 13:38:00 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 1
+INFO - 2019-10-23 13:38:00 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 3
+INFO - 2019-10-23 13:38:00 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 4
+INFO - 2019-10-23 13:38:00 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myGroup.php
+INFO - 2019-10-23 13:38:00 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:00 --> Total execution time: 0.2900
+INFO - 2019-10-23 13:38:03 --> Config Class Initialized
+INFO - 2019-10-23 13:38:03 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:03 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:03 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:03 --> URI Class Initialized
+DEBUG - 2019-10-23 13:38:03 --> No URI present. Default controller set.
+INFO - 2019-10-23 13:38:03 --> Router Class Initialized
+INFO - 2019-10-23 13:38:03 --> Output Class Initialized
+INFO - 2019-10-23 13:38:03 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:03 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:03 --> Input Class Initialized
+INFO - 2019-10-23 13:38:03 --> Language Class Initialized
+INFO - 2019-10-23 13:38:03 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:03 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:03 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:03 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:03 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:03 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:03 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:03 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:03 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:03 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:03 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:03 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:03 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:03 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:03 --> Model Class Initialized
+INFO - 2019-10-23 13:38:03 --> Model Class Initialized
+INFO - 2019-10-23 13:38:03 --> Model Class Initialized
+INFO - 2019-10-23 13:38:03 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:03 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:03 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:03 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:03 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:03 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:03 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:38:03 --> Model Class Initialized
+INFO - 2019-10-23 13:38:03 --> Model Class Initialized
+INFO - 2019-10-23 13:38:03 --> 【提示信息】SELECT *
+FROM `db_banner`
+ORDER BY `sort` asc
+INFO - 2019-10-23 13:38:03 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+INFO - 2019-10-23 13:38:03 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:38:03 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+INFO - 2019-10-23 13:38:03 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:38:03 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/index.php
+INFO - 2019-10-23 13:38:03 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:03 --> Total execution time: 0.2150
+INFO - 2019-10-23 13:38:06 --> Config Class Initialized
+INFO - 2019-10-23 13:38:06 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:06 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:06 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:06 --> URI Class Initialized
+INFO - 2019-10-23 13:38:06 --> Router Class Initialized
+INFO - 2019-10-23 13:38:06 --> Output Class Initialized
+INFO - 2019-10-23 13:38:06 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:06 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:06 --> Input Class Initialized
+INFO - 2019-10-23 13:38:06 --> Language Class Initialized
+INFO - 2019-10-23 13:38:06 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:06 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:06 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:06 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:06 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:06 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:06 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:06 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:06 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:06 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:06 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:06 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:06 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:06 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:06 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:06 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:06 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:06 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:06 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:06 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> Model Class Initialized
+INFO - 2019-10-23 13:38:06 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:38:06 --> 【提示信息】SELECT *
+FROM `db_order_detail`
+WHERE `course_id` = 24 and `user_id` = 1
+INFO - 2019-10-23 13:38:06 --> 【提示信息】select od.*,u.id as uid,u.* from db_order_detail od LEFT JOIN db_order o ON od.order_id = o.id LEFT JOIN db_user u ON u.id = od.user_id WHERE  o.course_id = 24
+INFO - 2019-10-23 13:38:06 --> 【提示信息】select * from db_share where course_id = 24 and user_id = 0 limit 0,1
+INFO - 2019-10-23 13:38:06 --> 【提示信息】SELECT count(*) as num
+FROM `db_share_detail`
+WHERE `share_id` = '26'
+AND `vist_id` = '1'
+INFO - 2019-10-23 13:38:06 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/courseBuy.php
+INFO - 2019-10-23 13:38:06 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:06 --> Total execution time: 0.2406
+INFO - 2019-10-23 13:38:25 --> Config Class Initialized
+INFO - 2019-10-23 13:38:25 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:25 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:25 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:25 --> URI Class Initialized
+DEBUG - 2019-10-23 13:38:25 --> No URI present. Default controller set.
+INFO - 2019-10-23 13:38:25 --> Router Class Initialized
+INFO - 2019-10-23 13:38:25 --> Output Class Initialized
+INFO - 2019-10-23 13:38:25 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:25 --> Input Class Initialized
+INFO - 2019-10-23 13:38:25 --> Language Class Initialized
+INFO - 2019-10-23 13:38:25 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:25 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:25 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:25 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:25 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:25 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:25 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:25 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:25 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:25 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:25 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:25 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:25 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:25 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:25 --> Model Class Initialized
+INFO - 2019-10-23 13:38:25 --> Model Class Initialized
+INFO - 2019-10-23 13:38:25 --> Model Class Initialized
+INFO - 2019-10-23 13:38:25 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:25 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:25 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:25 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:25 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:25 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:25 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:38:25 --> Model Class Initialized
+INFO - 2019-10-23 13:38:25 --> Model Class Initialized
+INFO - 2019-10-23 13:38:25 --> 【提示信息】SELECT *
+FROM `db_banner`
+ORDER BY `sort` asc
+INFO - 2019-10-23 13:38:25 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+INFO - 2019-10-23 13:38:25 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:38:25 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+INFO - 2019-10-23 13:38:25 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:38:25 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/index.php
+INFO - 2019-10-23 13:38:25 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:25 --> Total execution time: 0.1590
+INFO - 2019-10-23 13:38:26 --> Config Class Initialized
+INFO - 2019-10-23 13:38:26 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:26 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:26 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:26 --> URI Class Initialized
+INFO - 2019-10-23 13:38:26 --> Router Class Initialized
+INFO - 2019-10-23 13:38:26 --> Output Class Initialized
+INFO - 2019-10-23 13:38:26 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:26 --> Input Class Initialized
+INFO - 2019-10-23 13:38:26 --> Language Class Initialized
+INFO - 2019-10-23 13:38:26 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:26 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:26 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:26 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:26 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:26 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:26 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:26 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:26 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:26 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:26 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:26 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:26 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:26 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:26 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:26 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:26 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:26 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:26 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:26 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> Model Class Initialized
+INFO - 2019-10-23 13:38:26 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:38:26 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:38:26 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:26 --> Total execution time: 0.2270
+INFO - 2019-10-23 13:38:34 --> Config Class Initialized
+INFO - 2019-10-23 13:38:34 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:34 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:34 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:34 --> URI Class Initialized
+DEBUG - 2019-10-23 13:38:34 --> No URI present. Default controller set.
+INFO - 2019-10-23 13:38:34 --> Router Class Initialized
+INFO - 2019-10-23 13:38:34 --> Output Class Initialized
+INFO - 2019-10-23 13:38:34 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:34 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:34 --> Input Class Initialized
+INFO - 2019-10-23 13:38:34 --> Language Class Initialized
+INFO - 2019-10-23 13:38:34 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:34 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:34 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:34 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:34 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:34 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:34 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:34 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:34 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:34 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:34 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:34 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:34 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:34 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:34 --> Model Class Initialized
+INFO - 2019-10-23 13:38:34 --> Model Class Initialized
+DEBUG - 2019-10-23 13:38:34 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:38:34 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:38:34 --> Model Class Initialized
+INFO - 2019-10-23 13:38:34 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:38:34 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/index.php
+INFO - 2019-10-23 13:38:34 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:34 --> Total execution time: 0.4396
+INFO - 2019-10-23 13:38:36 --> Config Class Initialized
+INFO - 2019-10-23 13:38:36 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:36 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:36 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:36 --> URI Class Initialized
+INFO - 2019-10-23 13:38:36 --> Router Class Initialized
+INFO - 2019-10-23 13:38:36 --> Output Class Initialized
+INFO - 2019-10-23 13:38:36 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:36 --> Input Class Initialized
+INFO - 2019-10-23 13:38:36 --> Language Class Initialized
+INFO - 2019-10-23 13:38:36 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:36 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:36 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:36 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:36 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:36 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:36 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:36 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:36 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:36 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:36 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:36 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:36 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:36 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:36 --> Model Class Initialized
+INFO - 2019-10-23 13:38:36 --> Model Class Initialized
+DEBUG - 2019-10-23 13:38:36 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:38:36 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:38:36 --> Model Class Initialized
+INFO - 2019-10-23 13:38:36 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:38:36 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/desktop.php
+INFO - 2019-10-23 13:38:36 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:36 --> Total execution time: 0.1380
+INFO - 2019-10-23 13:38:42 --> Config Class Initialized
+INFO - 2019-10-23 13:38:42 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:42 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:42 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:42 --> URI Class Initialized
+INFO - 2019-10-23 13:38:42 --> Router Class Initialized
+INFO - 2019-10-23 13:38:42 --> Output Class Initialized
+INFO - 2019-10-23 13:38:42 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:42 --> Input Class Initialized
+INFO - 2019-10-23 13:38:42 --> Language Class Initialized
+INFO - 2019-10-23 13:38:42 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:42 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:42 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:42 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:42 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:42 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:42 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:42 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:42 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:42 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:42 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:42 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:42 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:42 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+DEBUG - 2019-10-23 13:38:42 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:38:42 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+INFO - 2019-10-23 13:38:42 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+INFO - 2019-10-23 13:38:42 --> Model Class Initialized
+INFO - 2019-10-23 13:38:42 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanList.php
+INFO - 2019-10-23 13:38:42 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:42 --> Total execution time: 0.1790
+INFO - 2019-10-23 13:38:43 --> Config Class Initialized
+INFO - 2019-10-23 13:38:43 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:43 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:43 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:43 --> URI Class Initialized
+INFO - 2019-10-23 13:38:43 --> Router Class Initialized
+INFO - 2019-10-23 13:38:43 --> Output Class Initialized
+INFO - 2019-10-23 13:38:43 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:43 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:43 --> Input Class Initialized
+INFO - 2019-10-23 13:38:43 --> Language Class Initialized
+INFO - 2019-10-23 13:38:43 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:43 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:43 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:43 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:43 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:43 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:43 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:43 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:43 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:43 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:43 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:43 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:43 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:43 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+DEBUG - 2019-10-23 13:38:43 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:38:43 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+INFO - 2019-10-23 13:38:43 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+INFO - 2019-10-23 13:38:43 --> Model Class Initialized
+INFO - 2019-10-23 13:38:43 --> 【提示信息】SELECT count(*) as num
+FROM `db_salesman`
+WHERE 1 = 1
+INFO - 2019-10-23 13:38:43 --> 【提示信息】SELECT *
+FROM `db_salesman`
+WHERE 1 = 1
+ORDER BY `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:38:43 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:38:43 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 20  group  by salesman_id
+INFO - 2019-10-23 13:38:44 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 18  group  by salesman_id
+INFO - 2019-10-23 13:38:44 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 17  group  by salesman_id
+INFO - 2019-10-23 13:38:44 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 12  group  by salesman_id
+INFO - 2019-10-23 13:38:44 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 10  group  by salesman_id
+INFO - 2019-10-23 13:38:44 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:44 --> Total execution time: 0.2310
+INFO - 2019-10-23 13:38:48 --> Config Class Initialized
+INFO - 2019-10-23 13:38:48 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:48 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:48 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:48 --> URI Class Initialized
+INFO - 2019-10-23 13:38:48 --> Router Class Initialized
+INFO - 2019-10-23 13:38:48 --> Output Class Initialized
+INFO - 2019-10-23 13:38:48 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:48 --> Input Class Initialized
+INFO - 2019-10-23 13:38:48 --> Language Class Initialized
+INFO - 2019-10-23 13:38:48 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:48 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:48 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:48 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:48 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:48 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:48 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+DEBUG - 2019-10-23 13:38:48 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:38:48 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Config Class Initialized
+INFO - 2019-10-23 13:38:48 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:48 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:48 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:48 --> URI Class Initialized
+INFO - 2019-10-23 13:38:48 --> Router Class Initialized
+INFO - 2019-10-23 13:38:48 --> Output Class Initialized
+INFO - 2019-10-23 13:38:48 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:48 --> Input Class Initialized
+INFO - 2019-10-23 13:38:48 --> Language Class Initialized
+INFO - 2019-10-23 13:38:48 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:48 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:48 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:48 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:48 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:48 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:48 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:48 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+DEBUG - 2019-10-23 13:38:48 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:38:48 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> Model Class Initialized
+INFO - 2019-10-23 13:38:48 --> 【提示信息】SELECT count(*) as num
+FROM `db_salesman`
+WHERE 1 = 1
+INFO - 2019-10-23 13:38:48 --> 【提示信息】SELECT *
+FROM `db_salesman`
+WHERE 1 = 1
+ORDER BY `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:38:48 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:38:48 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 20  group  by salesman_id
+INFO - 2019-10-23 13:38:48 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 18  group  by salesman_id
+INFO - 2019-10-23 13:38:48 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 17  group  by salesman_id
+INFO - 2019-10-23 13:38:48 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 12  group  by salesman_id
+INFO - 2019-10-23 13:38:48 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 10  group  by salesman_id
+INFO - 2019-10-23 13:38:48 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:48 --> Total execution time: 0.1760
+INFO - 2019-10-23 13:38:56 --> Config Class Initialized
+INFO - 2019-10-23 13:38:56 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:56 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:56 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:56 --> URI Class Initialized
+DEBUG - 2019-10-23 13:38:56 --> No URI present. Default controller set.
+INFO - 2019-10-23 13:38:56 --> Router Class Initialized
+INFO - 2019-10-23 13:38:56 --> Output Class Initialized
+INFO - 2019-10-23 13:38:56 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:56 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:56 --> Input Class Initialized
+INFO - 2019-10-23 13:38:56 --> Language Class Initialized
+INFO - 2019-10-23 13:38:56 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:56 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:56 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:56 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:56 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:56 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:56 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:56 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:56 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:56 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:56 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:56 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:56 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:56 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:56 --> Model Class Initialized
+INFO - 2019-10-23 13:38:56 --> Model Class Initialized
+INFO - 2019-10-23 13:38:56 --> Model Class Initialized
+INFO - 2019-10-23 13:38:56 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:57 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:57 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:57 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:57 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:57 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:57 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:38:57 --> Model Class Initialized
+INFO - 2019-10-23 13:38:57 --> Model Class Initialized
+INFO - 2019-10-23 13:38:57 --> 【提示信息】SELECT *
+FROM `db_banner`
+ORDER BY `sort` asc
+INFO - 2019-10-23 13:38:57 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+INFO - 2019-10-23 13:38:57 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:38:57 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+INFO - 2019-10-23 13:38:57 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:38:57 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/index.php
+INFO - 2019-10-23 13:38:57 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:57 --> Total execution time: 0.1860
+INFO - 2019-10-23 13:38:58 --> Config Class Initialized
+INFO - 2019-10-23 13:38:58 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:38:58 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:38:58 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:38:58 --> URI Class Initialized
+INFO - 2019-10-23 13:38:58 --> Router Class Initialized
+INFO - 2019-10-23 13:38:58 --> Output Class Initialized
+INFO - 2019-10-23 13:38:58 --> Security Class Initialized
+DEBUG - 2019-10-23 13:38:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:38:58 --> Input Class Initialized
+INFO - 2019-10-23 13:38:58 --> Language Class Initialized
+INFO - 2019-10-23 13:38:58 --> Loader Class Initialized
+INFO - 2019-10-23 13:38:58 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:38:58 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:38:58 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:38:58 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:38:58 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:38:58 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:38:58 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:38:58 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:38:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:38:58 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:38:58 --> Pagination Class Initialized
+INFO - 2019-10-23 13:38:58 --> User Agent Class Initialized
+INFO - 2019-10-23 13:38:58 --> Controller Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:58 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:38:58 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:58 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:38:58 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:58 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:38:58 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> Model Class Initialized
+INFO - 2019-10-23 13:38:58 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:38:58 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:38:58 --> Final output sent to browser
+DEBUG - 2019-10-23 13:38:58 --> Total execution time: 0.2020
+INFO - 2019-10-23 13:39:04 --> Config Class Initialized
+INFO - 2019-10-23 13:39:04 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:04 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:04 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:04 --> URI Class Initialized
+INFO - 2019-10-23 13:39:04 --> Router Class Initialized
+INFO - 2019-10-23 13:39:04 --> Output Class Initialized
+INFO - 2019-10-23 13:39:04 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:04 --> Input Class Initialized
+INFO - 2019-10-23 13:39:04 --> Language Class Initialized
+INFO - 2019-10-23 13:39:04 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:04 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:04 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:04 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:04 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:04 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:04 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:04 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:04 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:04 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:04 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:04 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:04 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:04 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:39:04 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:39:04 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:39:04 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:39:04 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:39:04 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:39:04 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> Model Class Initialized
+INFO - 2019-10-23 13:39:04 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:39:04 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:39:04 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:04 --> Total execution time: 0.2170
+INFO - 2019-10-23 13:39:05 --> Config Class Initialized
+INFO - 2019-10-23 13:39:05 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:05 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:05 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:05 --> URI Class Initialized
+INFO - 2019-10-23 13:39:05 --> Router Class Initialized
+INFO - 2019-10-23 13:39:05 --> Output Class Initialized
+INFO - 2019-10-23 13:39:05 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:05 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:05 --> Input Class Initialized
+INFO - 2019-10-23 13:39:05 --> Language Class Initialized
+INFO - 2019-10-23 13:39:05 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:05 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:05 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:05 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:05 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:05 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:05 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:05 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:05 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:05 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:05 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:05 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:05 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:05 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:39:05 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:39:05 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:39:05 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:39:05 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:39:05 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:39:05 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> Model Class Initialized
+INFO - 2019-10-23 13:39:05 --> 【提示信息】SELECT *
+FROM `db_salesman_type`
+INFO - 2019-10-23 13:39:05 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/regOk.php
+INFO - 2019-10-23 13:39:05 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:05 --> Total execution time: 0.1776
+INFO - 2019-10-23 13:39:11 --> Config Class Initialized
+INFO - 2019-10-23 13:39:11 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:11 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:11 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:11 --> URI Class Initialized
+INFO - 2019-10-23 13:39:11 --> Router Class Initialized
+INFO - 2019-10-23 13:39:11 --> Output Class Initialized
+INFO - 2019-10-23 13:39:11 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:11 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:11 --> Input Class Initialized
+INFO - 2019-10-23 13:39:11 --> Language Class Initialized
+INFO - 2019-10-23 13:39:11 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:11 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:11 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:11 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:11 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:11 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:11 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:11 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:11 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:11 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:11 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:11 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:11 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:11 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:39:11 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:39:11 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:39:11 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:39:11 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:39:11 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:39:11 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> Model Class Initialized
+INFO - 2019-10-23 13:39:11 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:39:11 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:39:11 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:11 --> Total execution time: 0.1230
+INFO - 2019-10-23 13:39:18 --> Config Class Initialized
+INFO - 2019-10-23 13:39:18 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:18 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:18 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:18 --> URI Class Initialized
+DEBUG - 2019-10-23 13:39:18 --> No URI present. Default controller set.
+INFO - 2019-10-23 13:39:18 --> Router Class Initialized
+INFO - 2019-10-23 13:39:18 --> Output Class Initialized
+INFO - 2019-10-23 13:39:18 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:18 --> Input Class Initialized
+INFO - 2019-10-23 13:39:18 --> Language Class Initialized
+INFO - 2019-10-23 13:39:18 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:18 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:18 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:18 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:18 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:18 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:18 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:18 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:18 --> Model Class Initialized
+INFO - 2019-10-23 13:39:18 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:18 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:18 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:18 --> Model Class Initialized
+INFO - 2019-10-23 13:39:18 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:18 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/index.php
+INFO - 2019-10-23 13:39:18 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:18 --> Total execution time: 0.1116
+INFO - 2019-10-23 13:39:18 --> Config Class Initialized
+INFO - 2019-10-23 13:39:18 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:18 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:18 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:18 --> URI Class Initialized
+INFO - 2019-10-23 13:39:18 --> Router Class Initialized
+INFO - 2019-10-23 13:39:18 --> Output Class Initialized
+INFO - 2019-10-23 13:39:18 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:18 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:18 --> Input Class Initialized
+INFO - 2019-10-23 13:39:18 --> Language Class Initialized
+INFO - 2019-10-23 13:39:18 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:18 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:18 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:18 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:18 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:18 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:18 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:18 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:18 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:18 --> Model Class Initialized
+INFO - 2019-10-23 13:39:18 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:18 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:18 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:18 --> Model Class Initialized
+INFO - 2019-10-23 13:39:18 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:18 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/desktop.php
+INFO - 2019-10-23 13:39:18 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:18 --> Total execution time: 0.1030
+INFO - 2019-10-23 13:39:22 --> Config Class Initialized
+INFO - 2019-10-23 13:39:22 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:22 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:22 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:22 --> URI Class Initialized
+INFO - 2019-10-23 13:39:22 --> Router Class Initialized
+INFO - 2019-10-23 13:39:22 --> Output Class Initialized
+INFO - 2019-10-23 13:39:22 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:22 --> Input Class Initialized
+INFO - 2019-10-23 13:39:22 --> Language Class Initialized
+INFO - 2019-10-23 13:39:22 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:22 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:22 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:22 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:22 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:22 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:22 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:22 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:22 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanList.php
+INFO - 2019-10-23 13:39:22 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:22 --> Total execution time: 0.0990
+INFO - 2019-10-23 13:39:22 --> Config Class Initialized
+INFO - 2019-10-23 13:39:22 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:22 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:22 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:22 --> URI Class Initialized
+INFO - 2019-10-23 13:39:22 --> Router Class Initialized
+INFO - 2019-10-23 13:39:22 --> Output Class Initialized
+INFO - 2019-10-23 13:39:22 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:22 --> Input Class Initialized
+INFO - 2019-10-23 13:39:22 --> Language Class Initialized
+INFO - 2019-10-23 13:39:22 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:22 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:22 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:22 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:22 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:22 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:22 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:22 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:22 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:22 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> Model Class Initialized
+INFO - 2019-10-23 13:39:22 --> 【提示信息】SELECT count(*) as num
+FROM `db_salesman`
+WHERE 1 = 1
+INFO - 2019-10-23 13:39:22 --> 【提示信息】SELECT *
+FROM `db_salesman`
+WHERE 1 = 1
+ORDER BY `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:39:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:39:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 20  group  by salesman_id
+INFO - 2019-10-23 13:39:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 18  group  by salesman_id
+INFO - 2019-10-23 13:39:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 17  group  by salesman_id
+INFO - 2019-10-23 13:39:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 12  group  by salesman_id
+INFO - 2019-10-23 13:39:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 10  group  by salesman_id
+INFO - 2019-10-23 13:39:22 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:22 --> Total execution time: 0.1910
+INFO - 2019-10-23 13:39:25 --> Config Class Initialized
+INFO - 2019-10-23 13:39:25 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:25 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:25 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:25 --> URI Class Initialized
+INFO - 2019-10-23 13:39:25 --> Router Class Initialized
+INFO - 2019-10-23 13:39:25 --> Output Class Initialized
+INFO - 2019-10-23 13:39:25 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:25 --> Input Class Initialized
+INFO - 2019-10-23 13:39:25 --> Language Class Initialized
+INFO - 2019-10-23 13:39:25 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:25 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:25 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:25 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:25 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:25 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:25 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:25 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:25 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:25 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:25 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:25 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:25 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:25 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:25 --> Model Class Initialized
+INFO - 2019-10-23 13:39:25 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:25 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:25 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:25 --> Model Class Initialized
+INFO - 2019-10-23 13:39:26 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:26 --> Model Class Initialized
+INFO - 2019-10-23 13:39:26 --> Model Class Initialized
+INFO - 2019-10-23 13:39:26 --> Model Class Initialized
+INFO - 2019-10-23 13:39:26 --> Model Class Initialized
+INFO - 2019-10-23 13:39:26 --> Model Class Initialized
+INFO - 2019-10-23 13:39:26 --> Model Class Initialized
+INFO - 2019-10-23 13:39:26 --> 【提示信息】select * from db_user  where id not in (select user_id from db_salesman  )
+INFO - 2019-10-23 13:39:26 --> 【提示信息】SELECT *
+FROM `db_area`
+WHERE `parentId` = -1
+INFO - 2019-10-23 13:39:26 --> 【提示信息】SELECT *
+FROM `db_salesman_type`
+INFO - 2019-10-23 13:39:26 --> 【提示信息】select * from db_salesman where is_check =1  and id <> 21
+INFO - 2019-10-23 13:39:26 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanEdit.php
+INFO - 2019-10-23 13:39:26 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:26 --> Total execution time: 0.2470
+INFO - 2019-10-23 13:39:39 --> Config Class Initialized
+INFO - 2019-10-23 13:39:39 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:39 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:39 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:39 --> URI Class Initialized
+INFO - 2019-10-23 13:39:39 --> Router Class Initialized
+INFO - 2019-10-23 13:39:39 --> Output Class Initialized
+INFO - 2019-10-23 13:39:39 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:39 --> Input Class Initialized
+INFO - 2019-10-23 13:39:39 --> Language Class Initialized
+INFO - 2019-10-23 13:39:39 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:39 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:39 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:39 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:39 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:39 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:39 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:39 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:39 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:40 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:40 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:40 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:40 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:40 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:40 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:40 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanList.php
+INFO - 2019-10-23 13:39:40 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:40 --> Total execution time: 0.1736
+INFO - 2019-10-23 13:39:40 --> Config Class Initialized
+INFO - 2019-10-23 13:39:40 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:40 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:40 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:40 --> URI Class Initialized
+INFO - 2019-10-23 13:39:40 --> Router Class Initialized
+INFO - 2019-10-23 13:39:40 --> Output Class Initialized
+INFO - 2019-10-23 13:39:40 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:40 --> Input Class Initialized
+INFO - 2019-10-23 13:39:40 --> Language Class Initialized
+INFO - 2019-10-23 13:39:40 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:40 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:40 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:40 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:40 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:40 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:40 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:40 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:40 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:40 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:40 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:40 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:40 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:40 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:40 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:40 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> Model Class Initialized
+INFO - 2019-10-23 13:39:40 --> 【提示信息】SELECT count(*) as num
+FROM `db_salesman`
+WHERE 1 = 1
+INFO - 2019-10-23 13:39:40 --> 【提示信息】SELECT *
+FROM `db_salesman`
+WHERE 1 = 1
+ORDER BY `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:39:40 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:39:40 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 20  group  by salesman_id
+INFO - 2019-10-23 13:39:40 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 18  group  by salesman_id
+INFO - 2019-10-23 13:39:40 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 17  group  by salesman_id
+INFO - 2019-10-23 13:39:40 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 12  group  by salesman_id
+INFO - 2019-10-23 13:39:40 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 10  group  by salesman_id
+INFO - 2019-10-23 13:39:40 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:40 --> Total execution time: 0.1660
+INFO - 2019-10-23 13:39:42 --> Config Class Initialized
+INFO - 2019-10-23 13:39:42 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:42 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:42 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:42 --> URI Class Initialized
+INFO - 2019-10-23 13:39:42 --> Router Class Initialized
+INFO - 2019-10-23 13:39:42 --> Output Class Initialized
+INFO - 2019-10-23 13:39:42 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:42 --> Input Class Initialized
+INFO - 2019-10-23 13:39:42 --> Language Class Initialized
+INFO - 2019-10-23 13:39:42 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:42 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:42 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:42 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:42 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:42 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:42 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:42 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:42 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:42 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:42 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:42 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:42 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:42 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:42 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:42 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+INFO - 2019-10-23 13:39:42 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+INFO - 2019-10-23 13:39:42 --> Model Class Initialized
+INFO - 2019-10-23 13:39:42 --> 【提示信息】select * from db_user  where id not in (select user_id from db_salesman  )
+INFO - 2019-10-23 13:39:42 --> 【提示信息】SELECT *
+FROM `db_area`
+WHERE `parentId` = -1
+INFO - 2019-10-23 13:39:42 --> 【提示信息】SELECT *
+FROM `db_salesman_type`
+INFO - 2019-10-23 13:39:42 --> 【提示信息】select * from db_salesman where is_check =1  and id <> 21
+INFO - 2019-10-23 13:39:42 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanEdit.php
+INFO - 2019-10-23 13:39:42 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:42 --> Total execution time: 0.1406
+INFO - 2019-10-23 13:39:57 --> Config Class Initialized
+INFO - 2019-10-23 13:39:57 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:57 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:57 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:57 --> URI Class Initialized
+INFO - 2019-10-23 13:39:57 --> Router Class Initialized
+INFO - 2019-10-23 13:39:57 --> Output Class Initialized
+INFO - 2019-10-23 13:39:57 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:57 --> Input Class Initialized
+INFO - 2019-10-23 13:39:57 --> Language Class Initialized
+INFO - 2019-10-23 13:39:57 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:57 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:57 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:57 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:57 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:57 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:57 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:57 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:57 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:57 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:57 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:57 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:57 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:57 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:57 --> Model Class Initialized
+INFO - 2019-10-23 13:39:57 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:57 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:57 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:57 --> Model Class Initialized
+INFO - 2019-10-23 13:39:57 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:57 --> Model Class Initialized
+INFO - 2019-10-23 13:39:57 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/roleList.php
+INFO - 2019-10-23 13:39:57 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:57 --> Total execution time: 0.1700
+INFO - 2019-10-23 13:39:58 --> Config Class Initialized
+INFO - 2019-10-23 13:39:58 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:58 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:58 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:58 --> URI Class Initialized
+INFO - 2019-10-23 13:39:58 --> Router Class Initialized
+INFO - 2019-10-23 13:39:58 --> Output Class Initialized
+INFO - 2019-10-23 13:39:58 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:58 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:58 --> Input Class Initialized
+INFO - 2019-10-23 13:39:58 --> Language Class Initialized
+INFO - 2019-10-23 13:39:58 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:58 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:58 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:58 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:58 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:58 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:58 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:58 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:58 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:58 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:58 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:58 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:58 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:58 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:58 --> Model Class Initialized
+INFO - 2019-10-23 13:39:58 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:58 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:58 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:58 --> Model Class Initialized
+INFO - 2019-10-23 13:39:58 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:58 --> Model Class Initialized
+INFO - 2019-10-23 13:39:58 --> 【提示信息】SELECT count(*) as num
+FROM `db_role`
+WHERE 1 = 1 and `id` <> 1 
+INFO - 2019-10-23 13:39:58 --> 【提示信息】SELECT `db_role`.*, from_unixtime(db_role.created) createdChar, ifnull(from_unixtime(db_role.updated), '--') updatedChar
+FROM `db_role`
+WHERE 1 = 1 and `id` <> 1 
+ORDER BY `id` asc
+ LIMIT 20
+INFO - 2019-10-23 13:39:58 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:58 --> Total execution time: 0.1770
+INFO - 2019-10-23 13:39:59 --> Config Class Initialized
+INFO - 2019-10-23 13:39:59 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:59 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:59 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:59 --> URI Class Initialized
+INFO - 2019-10-23 13:39:59 --> Router Class Initialized
+INFO - 2019-10-23 13:39:59 --> Output Class Initialized
+INFO - 2019-10-23 13:39:59 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:59 --> Input Class Initialized
+INFO - 2019-10-23 13:39:59 --> Language Class Initialized
+INFO - 2019-10-23 13:39:59 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:59 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:59 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:59 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:59 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:59 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:59 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:59 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:59 --> Model Class Initialized
+INFO - 2019-10-23 13:39:59 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:59 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:59 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:59 --> Model Class Initialized
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:59 --> Model Class Initialized
+INFO - 2019-10-23 13:39:59 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/moduleList.php
+INFO - 2019-10-23 13:39:59 --> Final output sent to browser
+DEBUG - 2019-10-23 13:39:59 --> Total execution time: 0.1126
+INFO - 2019-10-23 13:39:59 --> Config Class Initialized
+INFO - 2019-10-23 13:39:59 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:39:59 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:39:59 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:39:59 --> URI Class Initialized
+INFO - 2019-10-23 13:39:59 --> Router Class Initialized
+INFO - 2019-10-23 13:39:59 --> Output Class Initialized
+INFO - 2019-10-23 13:39:59 --> Security Class Initialized
+DEBUG - 2019-10-23 13:39:59 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:39:59 --> Input Class Initialized
+INFO - 2019-10-23 13:39:59 --> Language Class Initialized
+INFO - 2019-10-23 13:39:59 --> Loader Class Initialized
+INFO - 2019-10-23 13:39:59 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:39:59 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:39:59 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:39:59 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:39:59 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:39:59 --> Pagination Class Initialized
+INFO - 2019-10-23 13:39:59 --> User Agent Class Initialized
+INFO - 2019-10-23 13:39:59 --> Controller Class Initialized
+INFO - 2019-10-23 13:39:59 --> Model Class Initialized
+INFO - 2019-10-23 13:39:59 --> Model Class Initialized
+DEBUG - 2019-10-23 13:39:59 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:39:59 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:39:59 --> Model Class Initialized
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:39:59 --> Model Class Initialized
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT count(*) as num
+FROM `db_module`
+WHERE `level` = 1
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 1
+ORDER BY `is_show` desc, `pid`
+ LIMIT 20
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '1'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '3'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '4'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '56'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '57'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '58'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '59'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '60'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '61'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '6'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '7'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '62'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '63'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '8'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '9'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '10'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '14'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '15'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '49'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '50'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '75'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '72'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '67'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '76'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '74'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '73'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:39:59 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '71'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '70'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '69'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '68'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '65'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '54'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '53'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '52'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '51'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '77'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '41'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '42'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '66'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '55'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '48'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '47'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '46'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '45'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '44'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '43'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '78'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '40'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '2'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 3
+AND `pid` = '5'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> 【提示信息】SELECT `db_module`.*, from_unixtime(db_module.created) createdChar, ifnull(from_unixtime(db_module.updated), '--') updatedChar
+FROM `db_module`
+WHERE `level` = 2
+AND `pid` = '64'
+ORDER BY `is_show` desc, 'order' desc
+INFO - 2019-10-23 13:40:00 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:00 --> Total execution time: 0.8250
+INFO - 2019-10-23 13:40:01 --> Config Class Initialized
+INFO - 2019-10-23 13:40:01 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:01 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:01 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:01 --> URI Class Initialized
+INFO - 2019-10-23 13:40:01 --> Router Class Initialized
+INFO - 2019-10-23 13:40:01 --> Output Class Initialized
+INFO - 2019-10-23 13:40:01 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:01 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:01 --> Input Class Initialized
+INFO - 2019-10-23 13:40:01 --> Language Class Initialized
+INFO - 2019-10-23 13:40:01 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:01 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:01 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:01 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:01 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:01 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:01 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:01 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:01 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:01 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:01 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:01 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:01 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:01 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:01 --> Model Class Initialized
+INFO - 2019-10-23 13:40:01 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:01 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:01 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:01 --> Model Class Initialized
+INFO - 2019-10-23 13:40:01 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:01 --> Model Class Initialized
+INFO - 2019-10-23 13:40:01 --> 【提示信息】SELECT *
+FROM `db_role`
+WHERE `id` <> 1 
+INFO - 2019-10-23 13:40:01 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/adminList.php
+INFO - 2019-10-23 13:40:01 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:01 --> Total execution time: 0.1392
+INFO - 2019-10-23 13:40:02 --> Config Class Initialized
+INFO - 2019-10-23 13:40:02 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:02 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:02 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:02 --> URI Class Initialized
+INFO - 2019-10-23 13:40:02 --> Router Class Initialized
+INFO - 2019-10-23 13:40:02 --> Output Class Initialized
+INFO - 2019-10-23 13:40:02 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:02 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:02 --> Input Class Initialized
+INFO - 2019-10-23 13:40:02 --> Language Class Initialized
+INFO - 2019-10-23 13:40:02 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:02 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:02 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:02 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:02 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:02 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:02 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:02 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:02 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:02 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:02 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:02 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:02 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:02 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:02 --> Model Class Initialized
+INFO - 2019-10-23 13:40:02 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:02 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:02 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:02 --> Model Class Initialized
+INFO - 2019-10-23 13:40:02 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:02 --> 【提示信息】SELECT count(*) as num
+FROM `db_admin`
+LEFT JOIN `db_role` ON `db_role`.`id`=`db_admin`.`role_id`
+WHERE `role_id` <> 1 and 1 = 1
+INFO - 2019-10-23 13:40:02 --> 【提示信息】SELECT `db_admin`.*, `db_role`.`name` `roleName`, ifnull((
+							SELECT
+								GROUP_CONCAT(`name`)
+							FROM
+								db_role
+							WHERE
+								find_in_set(id, db_admin.sub_role_id)
+						), '--') subRoleName
+FROM `db_admin`
+LEFT JOIN `db_role` ON `db_role`.`id`=`db_admin`.`role_id`
+WHERE `role_id` <> 1 and 1 = 1
+ORDER BY `role_id`, `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:40:02 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:02 --> Total execution time: 0.1910
+INFO - 2019-10-23 13:40:04 --> Config Class Initialized
+INFO - 2019-10-23 13:40:04 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:04 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:04 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:04 --> URI Class Initialized
+INFO - 2019-10-23 13:40:04 --> Router Class Initialized
+INFO - 2019-10-23 13:40:04 --> Output Class Initialized
+INFO - 2019-10-23 13:40:04 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:04 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:04 --> Input Class Initialized
+INFO - 2019-10-23 13:40:04 --> Language Class Initialized
+INFO - 2019-10-23 13:40:04 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:04 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:04 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:04 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:04 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:04 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:04 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:04 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:04 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:05 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:05 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:05 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:05 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:05 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:05 --> Model Class Initialized
+INFO - 2019-10-23 13:40:05 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:05 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:05 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:05 --> Model Class Initialized
+INFO - 2019-10-23 13:40:05 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:05 --> 【提示信息】SELECT count(*) as num
+FROM `db_admin`
+LEFT JOIN `db_role` ON `db_role`.`id`=`db_admin`.`role_id`
+WHERE `role_id` <> 1 and 1 = 1
+INFO - 2019-10-23 13:40:05 --> 【提示信息】SELECT `db_admin`.*, `db_role`.`name` `roleName`, ifnull((
+							SELECT
+								GROUP_CONCAT(`name`)
+							FROM
+								db_role
+							WHERE
+								find_in_set(id, db_admin.sub_role_id)
+						), '--') subRoleName
+FROM `db_admin`
+LEFT JOIN `db_role` ON `db_role`.`id`=`db_admin`.`role_id`
+WHERE `role_id` <> 1 and 1 = 1
+ORDER BY `role_id`, `id` desc
+ LIMIT 20, 20
+INFO - 2019-10-23 13:40:05 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:05 --> Total execution time: 0.2226
+INFO - 2019-10-23 13:40:07 --> Config Class Initialized
+INFO - 2019-10-23 13:40:07 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:07 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:07 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:07 --> URI Class Initialized
+INFO - 2019-10-23 13:40:07 --> Router Class Initialized
+INFO - 2019-10-23 13:40:07 --> Output Class Initialized
+INFO - 2019-10-23 13:40:07 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:07 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:07 --> Input Class Initialized
+INFO - 2019-10-23 13:40:07 --> Language Class Initialized
+INFO - 2019-10-23 13:40:07 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:07 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:07 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:07 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:07 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:07 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:07 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:07 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:07 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:07 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:07 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:07 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:07 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:07 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:07 --> Model Class Initialized
+INFO - 2019-10-23 13:40:07 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:07 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:07 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:07 --> Model Class Initialized
+INFO - 2019-10-23 13:40:07 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:07 --> 【提示信息】SELECT count(*) as num
+FROM `db_admin`
+LEFT JOIN `db_role` ON `db_role`.`id`=`db_admin`.`role_id`
+WHERE `role_id` <> 1 and 1 = 1
+INFO - 2019-10-23 13:40:07 --> 【提示信息】SELECT `db_admin`.*, `db_role`.`name` `roleName`, ifnull((
+							SELECT
+								GROUP_CONCAT(`name`)
+							FROM
+								db_role
+							WHERE
+								find_in_set(id, db_admin.sub_role_id)
+						), '--') subRoleName
+FROM `db_admin`
+LEFT JOIN `db_role` ON `db_role`.`id`=`db_admin`.`role_id`
+WHERE `role_id` <> 1 and 1 = 1
+ORDER BY `role_id`, `id` desc
+ LIMIT 40, 20
+INFO - 2019-10-23 13:40:07 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:07 --> Total execution time: 0.1206
+INFO - 2019-10-23 13:40:09 --> Config Class Initialized
+INFO - 2019-10-23 13:40:09 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:09 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:09 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:09 --> URI Class Initialized
+INFO - 2019-10-23 13:40:09 --> Router Class Initialized
+INFO - 2019-10-23 13:40:09 --> Output Class Initialized
+INFO - 2019-10-23 13:40:09 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:09 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:09 --> Input Class Initialized
+INFO - 2019-10-23 13:40:09 --> Language Class Initialized
+INFO - 2019-10-23 13:40:09 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:09 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:09 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:09 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:09 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:09 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:09 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:09 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:09 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:09 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:09 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:09 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:09 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:09 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:09 --> Model Class Initialized
+INFO - 2019-10-23 13:40:09 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:09 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:09 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:09 --> Model Class Initialized
+INFO - 2019-10-23 13:40:09 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:09 --> 【提示信息】SELECT count(*) as num
+FROM `db_admin`
+LEFT JOIN `db_role` ON `db_role`.`id`=`db_admin`.`role_id`
+WHERE `role_id` <> 1 and 1 = 1
+INFO - 2019-10-23 13:40:09 --> 【提示信息】SELECT `db_admin`.*, `db_role`.`name` `roleName`, ifnull((
+							SELECT
+								GROUP_CONCAT(`name`)
+							FROM
+								db_role
+							WHERE
+								find_in_set(id, db_admin.sub_role_id)
+						), '--') subRoleName
+FROM `db_admin`
+LEFT JOIN `db_role` ON `db_role`.`id`=`db_admin`.`role_id`
+WHERE `role_id` <> 1 and 1 = 1
+ORDER BY `role_id`, `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:40:09 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:09 --> Total execution time: 0.1156
+INFO - 2019-10-23 13:40:13 --> Config Class Initialized
+INFO - 2019-10-23 13:40:13 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:13 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:13 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:13 --> URI Class Initialized
+INFO - 2019-10-23 13:40:13 --> Router Class Initialized
+INFO - 2019-10-23 13:40:13 --> Output Class Initialized
+INFO - 2019-10-23 13:40:13 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:13 --> Input Class Initialized
+INFO - 2019-10-23 13:40:13 --> Language Class Initialized
+INFO - 2019-10-23 13:40:13 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:13 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:13 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:13 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:13 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:13 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:13 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:13 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:13 --> Model Class Initialized
+INFO - 2019-10-23 13:40:13 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:13 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:13 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:13 --> Model Class Initialized
+INFO - 2019-10-23 13:40:13 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:13 --> Model Class Initialized
+INFO - 2019-10-23 13:40:13 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/userList.php
+INFO - 2019-10-23 13:40:13 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:13 --> Total execution time: 0.1690
+INFO - 2019-10-23 13:40:13 --> Config Class Initialized
+INFO - 2019-10-23 13:40:13 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:13 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:13 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:13 --> URI Class Initialized
+INFO - 2019-10-23 13:40:13 --> Router Class Initialized
+INFO - 2019-10-23 13:40:13 --> Output Class Initialized
+INFO - 2019-10-23 13:40:13 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:13 --> Input Class Initialized
+INFO - 2019-10-23 13:40:13 --> Language Class Initialized
+INFO - 2019-10-23 13:40:13 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:13 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:13 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:13 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:13 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:13 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:13 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:13 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:13 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:13 --> Model Class Initialized
+INFO - 2019-10-23 13:40:13 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:13 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:13 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:13 --> Model Class Initialized
+INFO - 2019-10-23 13:40:13 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:13 --> Model Class Initialized
+INFO - 2019-10-23 13:40:13 --> 【提示信息】SELECT count(*) as num
+FROM `db_user`
+WHERE 1 = 1 and `db_user`.`status` = '1'
+INFO - 2019-10-23 13:40:13 --> 【提示信息】SELECT `db_user`.*
+FROM `db_user`
+WHERE 1 = 1 and `db_user`.`status` = '1'
+ORDER BY `id` asc
+ LIMIT 20
+INFO - 2019-10-23 13:40:13 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:13 --> Total execution time: 0.1210
+INFO - 2019-10-23 13:40:13 --> Config Class Initialized
+INFO - 2019-10-23 13:40:13 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:13 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:13 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:13 --> URI Class Initialized
+INFO - 2019-10-23 13:40:13 --> Router Class Initialized
+INFO - 2019-10-23 13:40:13 --> Output Class Initialized
+INFO - 2019-10-23 13:40:13 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:13 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:13 --> Input Class Initialized
+INFO - 2019-10-23 13:40:13 --> Language Class Initialized
+ERROR - 2019-10-23 13:40:13 --> 404 页面走丢了: Upload/article
+INFO - 2019-10-23 13:40:25 --> Config Class Initialized
+INFO - 2019-10-23 13:40:25 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:25 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:25 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:25 --> URI Class Initialized
+INFO - 2019-10-23 13:40:25 --> Router Class Initialized
+INFO - 2019-10-23 13:40:25 --> Output Class Initialized
+INFO - 2019-10-23 13:40:25 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:25 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:25 --> Input Class Initialized
+INFO - 2019-10-23 13:40:25 --> Language Class Initialized
+INFO - 2019-10-23 13:40:25 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:25 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:25 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:25 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:25 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:25 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:25 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:25 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:25 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:25 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:25 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:25 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:25 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:25 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:25 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:25 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+INFO - 2019-10-23 13:40:25 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+INFO - 2019-10-23 13:40:25 --> Model Class Initialized
+INFO - 2019-10-23 13:40:25 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanList.php
+INFO - 2019-10-23 13:40:25 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:25 --> Total execution time: 0.1500
+INFO - 2019-10-23 13:40:26 --> Config Class Initialized
+INFO - 2019-10-23 13:40:26 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:26 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:26 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:26 --> URI Class Initialized
+INFO - 2019-10-23 13:40:26 --> Router Class Initialized
+INFO - 2019-10-23 13:40:26 --> Output Class Initialized
+INFO - 2019-10-23 13:40:26 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:26 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:26 --> Input Class Initialized
+INFO - 2019-10-23 13:40:26 --> Language Class Initialized
+INFO - 2019-10-23 13:40:26 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:26 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:26 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:26 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:26 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:26 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:26 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:26 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:26 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:26 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:26 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:26 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:26 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:26 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:26 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:26 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+INFO - 2019-10-23 13:40:26 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+INFO - 2019-10-23 13:40:26 --> Model Class Initialized
+INFO - 2019-10-23 13:40:26 --> 【提示信息】SELECT count(*) as num
+FROM `db_salesman`
+WHERE 1 = 1
+INFO - 2019-10-23 13:40:26 --> 【提示信息】SELECT *
+FROM `db_salesman`
+WHERE 1 = 1
+ORDER BY `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:40:26 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:40:26 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 20  group  by salesman_id
+INFO - 2019-10-23 13:40:26 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 18  group  by salesman_id
+INFO - 2019-10-23 13:40:26 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 17  group  by salesman_id
+INFO - 2019-10-23 13:40:26 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 12  group  by salesman_id
+INFO - 2019-10-23 13:40:26 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 10  group  by salesman_id
+INFO - 2019-10-23 13:40:26 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:26 --> Total execution time: 0.3090
+INFO - 2019-10-23 13:40:38 --> Config Class Initialized
+INFO - 2019-10-23 13:40:38 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:38 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:38 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:38 --> URI Class Initialized
+INFO - 2019-10-23 13:40:38 --> Router Class Initialized
+INFO - 2019-10-23 13:40:38 --> Output Class Initialized
+INFO - 2019-10-23 13:40:38 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:38 --> Input Class Initialized
+INFO - 2019-10-23 13:40:38 --> Language Class Initialized
+INFO - 2019-10-23 13:40:38 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:38 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:38 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:38 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:38 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:38 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:38 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:38 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:38 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:38 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanList.php
+INFO - 2019-10-23 13:40:38 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:38 --> Total execution time: 0.1500
+INFO - 2019-10-23 13:40:38 --> Config Class Initialized
+INFO - 2019-10-23 13:40:38 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:38 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:38 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:38 --> URI Class Initialized
+INFO - 2019-10-23 13:40:38 --> Router Class Initialized
+INFO - 2019-10-23 13:40:38 --> Output Class Initialized
+INFO - 2019-10-23 13:40:38 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:38 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:38 --> Input Class Initialized
+INFO - 2019-10-23 13:40:38 --> Language Class Initialized
+INFO - 2019-10-23 13:40:38 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:38 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:38 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:38 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:38 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:38 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:38 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:38 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:38 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:38 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:38 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> Model Class Initialized
+INFO - 2019-10-23 13:40:38 --> 【提示信息】SELECT count(*) as num
+FROM `db_salesman`
+WHERE 1 = 1 and `pid` = 21
+INFO - 2019-10-23 13:40:38 --> 【提示信息】SELECT *
+FROM `db_salesman`
+WHERE 1 = 1 and `pid` = 21
+ORDER BY `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:40:38 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:38 --> Total execution time: 0.1810
+INFO - 2019-10-23 13:40:39 --> Config Class Initialized
+INFO - 2019-10-23 13:40:39 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:39 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:39 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:39 --> URI Class Initialized
+INFO - 2019-10-23 13:40:39 --> Router Class Initialized
+INFO - 2019-10-23 13:40:39 --> Output Class Initialized
+INFO - 2019-10-23 13:40:39 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:39 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:39 --> Input Class Initialized
+INFO - 2019-10-23 13:40:39 --> Language Class Initialized
+INFO - 2019-10-23 13:40:39 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:39 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:39 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:39 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:39 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:39 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:39 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:39 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:39 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:39 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:39 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:39 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:39 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:39 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:40:39 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:40:39 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:40:39 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:40:39 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:40:39 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:40:39 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> Model Class Initialized
+INFO - 2019-10-23 13:40:39 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:40:39 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:40:39 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:39 --> Total execution time: 0.2046
+INFO - 2019-10-23 13:40:42 --> Config Class Initialized
+INFO - 2019-10-23 13:40:42 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:42 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:42 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:42 --> URI Class Initialized
+DEBUG - 2019-10-23 13:40:42 --> No URI present. Default controller set.
+INFO - 2019-10-23 13:40:42 --> Router Class Initialized
+INFO - 2019-10-23 13:40:42 --> Output Class Initialized
+INFO - 2019-10-23 13:40:42 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:42 --> Input Class Initialized
+INFO - 2019-10-23 13:40:42 --> Language Class Initialized
+INFO - 2019-10-23 13:40:42 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:42 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:42 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:42 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:42 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:42 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:42 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:42 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:42 --> Model Class Initialized
+INFO - 2019-10-23 13:40:42 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:42 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:42 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:42 --> Model Class Initialized
+INFO - 2019-10-23 13:40:42 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:42 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/index.php
+INFO - 2019-10-23 13:40:42 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:42 --> Total execution time: 0.1520
+INFO - 2019-10-23 13:40:42 --> Config Class Initialized
+INFO - 2019-10-23 13:40:42 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:42 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:42 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:42 --> URI Class Initialized
+INFO - 2019-10-23 13:40:42 --> Router Class Initialized
+INFO - 2019-10-23 13:40:42 --> Output Class Initialized
+INFO - 2019-10-23 13:40:42 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:42 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:42 --> Input Class Initialized
+INFO - 2019-10-23 13:40:42 --> Language Class Initialized
+INFO - 2019-10-23 13:40:42 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:42 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:42 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:42 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:42 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:42 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:42 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:42 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:42 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:42 --> Model Class Initialized
+INFO - 2019-10-23 13:40:42 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:42 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:42 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:42 --> Model Class Initialized
+INFO - 2019-10-23 13:40:42 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:42 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/desktop.php
+INFO - 2019-10-23 13:40:42 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:42 --> Total execution time: 0.1260
+INFO - 2019-10-23 13:40:44 --> Config Class Initialized
+INFO - 2019-10-23 13:40:44 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:44 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:44 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:44 --> URI Class Initialized
+INFO - 2019-10-23 13:40:44 --> Router Class Initialized
+INFO - 2019-10-23 13:40:44 --> Output Class Initialized
+INFO - 2019-10-23 13:40:44 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:44 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:44 --> Input Class Initialized
+INFO - 2019-10-23 13:40:44 --> Language Class Initialized
+INFO - 2019-10-23 13:40:44 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:44 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:44 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:44 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:44 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:44 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:44 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:44 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:44 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:44 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:44 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:44 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:44 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:44 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:44 --> Model Class Initialized
+INFO - 2019-10-23 13:40:44 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:45 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:45 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanList.php
+INFO - 2019-10-23 13:40:45 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:45 --> Total execution time: 0.0980
+INFO - 2019-10-23 13:40:45 --> Config Class Initialized
+INFO - 2019-10-23 13:40:45 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:40:45 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:40:45 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:40:45 --> URI Class Initialized
+INFO - 2019-10-23 13:40:45 --> Router Class Initialized
+INFO - 2019-10-23 13:40:45 --> Output Class Initialized
+INFO - 2019-10-23 13:40:45 --> Security Class Initialized
+DEBUG - 2019-10-23 13:40:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:40:45 --> Input Class Initialized
+INFO - 2019-10-23 13:40:45 --> Language Class Initialized
+INFO - 2019-10-23 13:40:45 --> Loader Class Initialized
+INFO - 2019-10-23 13:40:45 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:40:45 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:40:45 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:40:45 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:40:45 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:40:45 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:40:45 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:40:45 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:40:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:40:45 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:40:45 --> Pagination Class Initialized
+INFO - 2019-10-23 13:40:45 --> User Agent Class Initialized
+INFO - 2019-10-23 13:40:45 --> Controller Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+DEBUG - 2019-10-23 13:40:45 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:40:45 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> Model Class Initialized
+INFO - 2019-10-23 13:40:45 --> 【提示信息】SELECT count(*) as num
+FROM `db_salesman`
+WHERE 1 = 1
+INFO - 2019-10-23 13:40:45 --> 【提示信息】SELECT *
+FROM `db_salesman`
+WHERE 1 = 1
+ORDER BY `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:40:45 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:40:45 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 20  group  by salesman_id
+INFO - 2019-10-23 13:40:45 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 18  group  by salesman_id
+INFO - 2019-10-23 13:40:45 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 17  group  by salesman_id
+INFO - 2019-10-23 13:40:45 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 12  group  by salesman_id
+INFO - 2019-10-23 13:40:45 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 10  group  by salesman_id
+INFO - 2019-10-23 13:40:45 --> Final output sent to browser
+DEBUG - 2019-10-23 13:40:45 --> Total execution time: 0.1990
+INFO - 2019-10-23 13:41:15 --> Config Class Initialized
+INFO - 2019-10-23 13:41:15 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:15 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:15 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:15 --> URI Class Initialized
+INFO - 2019-10-23 13:41:15 --> Router Class Initialized
+INFO - 2019-10-23 13:41:15 --> Output Class Initialized
+INFO - 2019-10-23 13:41:15 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:15 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:15 --> Input Class Initialized
+INFO - 2019-10-23 13:41:15 --> Language Class Initialized
+INFO - 2019-10-23 13:41:15 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:15 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:15 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:15 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:15 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:15 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:15 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:15 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:15 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:15 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:15 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:15 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:15 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:15 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:15 --> Model Class Initialized
+INFO - 2019-10-23 13:41:15 --> Model Class Initialized
+DEBUG - 2019-10-23 13:41:15 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:41:15 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:41:15 --> Model Class Initialized
+INFO - 2019-10-23 13:41:15 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:41:15 --> Model Class Initialized
+INFO - 2019-10-23 13:41:15 --> Model Class Initialized
+INFO - 2019-10-23 13:41:16 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/courseList.php
+INFO - 2019-10-23 13:41:16 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:16 --> Total execution time: 0.1220
+INFO - 2019-10-23 13:41:16 --> Config Class Initialized
+INFO - 2019-10-23 13:41:16 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:16 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:16 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:16 --> URI Class Initialized
+INFO - 2019-10-23 13:41:16 --> Router Class Initialized
+INFO - 2019-10-23 13:41:16 --> Output Class Initialized
+INFO - 2019-10-23 13:41:16 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:16 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:16 --> Input Class Initialized
+INFO - 2019-10-23 13:41:16 --> Language Class Initialized
+INFO - 2019-10-23 13:41:16 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:16 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:16 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:16 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:16 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:16 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:16 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:16 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:16 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:16 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:16 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:16 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:16 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:16 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:16 --> Model Class Initialized
+INFO - 2019-10-23 13:41:16 --> Model Class Initialized
+DEBUG - 2019-10-23 13:41:16 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:41:16 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:41:16 --> Model Class Initialized
+INFO - 2019-10-23 13:41:16 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:41:16 --> Model Class Initialized
+INFO - 2019-10-23 13:41:16 --> Model Class Initialized
+INFO - 2019-10-23 13:41:16 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE 1 = 1 and `status` = 1 
+INFO - 2019-10-23 13:41:16 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE 1 = 1 and `status` = 1 
+ORDER BY `create_time` desc
+ LIMIT 20
+INFO - 2019-10-23 13:41:16 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:16 --> Total execution time: 0.1580
+INFO - 2019-10-23 13:41:22 --> Config Class Initialized
+INFO - 2019-10-23 13:41:22 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:22 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:22 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:22 --> URI Class Initialized
+INFO - 2019-10-23 13:41:22 --> Router Class Initialized
+INFO - 2019-10-23 13:41:22 --> Output Class Initialized
+INFO - 2019-10-23 13:41:22 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:22 --> Input Class Initialized
+INFO - 2019-10-23 13:41:22 --> Language Class Initialized
+INFO - 2019-10-23 13:41:22 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:22 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:22 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:22 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:22 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:22 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:22 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+DEBUG - 2019-10-23 13:41:22 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:41:22 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\admin/salesmanList.php
+INFO - 2019-10-23 13:41:22 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:22 --> Total execution time: 0.1390
+INFO - 2019-10-23 13:41:22 --> Config Class Initialized
+INFO - 2019-10-23 13:41:22 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:22 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:22 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:22 --> URI Class Initialized
+INFO - 2019-10-23 13:41:22 --> Router Class Initialized
+INFO - 2019-10-23 13:41:22 --> Output Class Initialized
+INFO - 2019-10-23 13:41:22 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:22 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:22 --> Input Class Initialized
+INFO - 2019-10-23 13:41:22 --> Language Class Initialized
+INFO - 2019-10-23 13:41:22 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:22 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:22 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:22 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:22 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:22 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:22 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:22 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:22 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+DEBUG - 2019-10-23 13:41:22 --> The APC PHP extension must be loaded to use APC Cache.
+DEBUG - 2019-10-23 13:41:22 --> Cache adapter "apc" is unavailable. Falling back to "file" backup adapter.
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> 【提示信息】SELECT `m`.*, `m2`.`icon`, `db_quick_entry`.`id` `quick_entry_id`
+FROM `db_quick_entry`
+LEFT JOIN `db_module` `m` ON `m`.`id`=`db_quick_entry`.`module_id`
+LEFT JOIN `db_module` `m2` ON `m2`.`id`=`m`.`pid`
+WHERE `db_quick_entry`.`admin_id` = '1'
+AND `m`.`level` = 2
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> Model Class Initialized
+INFO - 2019-10-23 13:41:22 --> 【提示信息】SELECT count(*) as num
+FROM `db_salesman`
+WHERE 1 = 1
+INFO - 2019-10-23 13:41:22 --> 【提示信息】SELECT *
+FROM `db_salesman`
+WHERE 1 = 1
+ORDER BY `id` desc
+ LIMIT 20
+INFO - 2019-10-23 13:41:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 21  group  by salesman_id
+INFO - 2019-10-23 13:41:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 20  group  by salesman_id
+INFO - 2019-10-23 13:41:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 18  group  by salesman_id
+INFO - 2019-10-23 13:41:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 17  group  by salesman_id
+INFO - 2019-10-23 13:41:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 12  group  by salesman_id
+INFO - 2019-10-23 13:41:22 --> 【提示信息】select sum(tc_price) as total_price from db_royalty where salesman_id = 10  group  by salesman_id
+INFO - 2019-10-23 13:41:22 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:22 --> Total execution time: 0.2230
+INFO - 2019-10-23 13:41:33 --> Config Class Initialized
+INFO - 2019-10-23 13:41:33 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:33 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:33 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:33 --> URI Class Initialized
+DEBUG - 2019-10-23 13:41:33 --> No URI present. Default controller set.
+INFO - 2019-10-23 13:41:33 --> Router Class Initialized
+INFO - 2019-10-23 13:41:33 --> Output Class Initialized
+INFO - 2019-10-23 13:41:33 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:33 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:33 --> Input Class Initialized
+INFO - 2019-10-23 13:41:33 --> Language Class Initialized
+INFO - 2019-10-23 13:41:33 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:33 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:33 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:33 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:33 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:33 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:33 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:33 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:33 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:33 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:33 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:33 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:33 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:33 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:33 --> Model Class Initialized
+INFO - 2019-10-23 13:41:33 --> Model Class Initialized
+INFO - 2019-10-23 13:41:33 --> Model Class Initialized
+INFO - 2019-10-23 13:41:33 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:33 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:33 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:33 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:33 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:33 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:33 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:33 --> Model Class Initialized
+INFO - 2019-10-23 13:41:33 --> Model Class Initialized
+INFO - 2019-10-23 13:41:33 --> 【提示信息】SELECT *
+FROM `db_banner`
+ORDER BY `sort` asc
+INFO - 2019-10-23 13:41:33 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+INFO - 2019-10-23 13:41:33 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `ishot` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:41:33 --> 【提示信息】SELECT count(*) as num
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+INFO - 2019-10-23 13:41:33 --> 【提示信息】SELECT *
+FROM `db_course`
+WHERE `status` = 1 and `isjt` = 1
+ORDER BY `id` desc
+ LIMIT 15
+INFO - 2019-10-23 13:41:33 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/index.php
+INFO - 2019-10-23 13:41:33 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:33 --> Total execution time: 0.2710
+INFO - 2019-10-23 13:41:36 --> Config Class Initialized
+INFO - 2019-10-23 13:41:36 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:36 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:36 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:36 --> URI Class Initialized
+INFO - 2019-10-23 13:41:36 --> Router Class Initialized
+INFO - 2019-10-23 13:41:36 --> Output Class Initialized
+INFO - 2019-10-23 13:41:36 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:36 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:36 --> Input Class Initialized
+INFO - 2019-10-23 13:41:36 --> Language Class Initialized
+INFO - 2019-10-23 13:41:36 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:36 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:36 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:36 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:36 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:36 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:36 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:36 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:36 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:36 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:36 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:36 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:36 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:36 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:36 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:36 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:36 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:36 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:36 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:36 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> Model Class Initialized
+INFO - 2019-10-23 13:41:36 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:41:36 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:41:36 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:36 --> Total execution time: 0.1260
+INFO - 2019-10-23 13:41:37 --> Config Class Initialized
+INFO - 2019-10-23 13:41:37 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:37 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:37 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:37 --> URI Class Initialized
+INFO - 2019-10-23 13:41:37 --> Router Class Initialized
+INFO - 2019-10-23 13:41:37 --> Output Class Initialized
+INFO - 2019-10-23 13:41:37 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:37 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:37 --> Input Class Initialized
+INFO - 2019-10-23 13:41:37 --> Language Class Initialized
+INFO - 2019-10-23 13:41:37 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:37 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:37 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:37 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:37 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:37 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:37 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:37 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:37 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:37 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:37 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:37 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:37 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:37 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:37 --> Model Class Initialized
+INFO - 2019-10-23 13:41:37 --> Model Class Initialized
+INFO - 2019-10-23 13:41:37 --> Model Class Initialized
+INFO - 2019-10-23 13:41:37 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:38 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:38 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:38 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:38 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:38 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:38 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> Model Class Initialized
+INFO - 2019-10-23 13:41:38 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/info.php
+INFO - 2019-10-23 13:41:38 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:38 --> Total execution time: 0.1496
+INFO - 2019-10-23 13:41:40 --> Config Class Initialized
+INFO - 2019-10-23 13:41:40 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:40 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:40 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:40 --> URI Class Initialized
+INFO - 2019-10-23 13:41:40 --> Router Class Initialized
+INFO - 2019-10-23 13:41:40 --> Output Class Initialized
+INFO - 2019-10-23 13:41:40 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:40 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:40 --> Input Class Initialized
+INFO - 2019-10-23 13:41:40 --> Language Class Initialized
+INFO - 2019-10-23 13:41:40 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:40 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:40 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:40 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:40 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:40 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:40 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:40 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:40 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:40 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:40 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:40 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:40 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:40 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:40 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:40 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:40 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:40 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:40 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:40 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:40 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Config Class Initialized
+INFO - 2019-10-23 13:41:45 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:45 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:45 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:45 --> URI Class Initialized
+INFO - 2019-10-23 13:41:45 --> Router Class Initialized
+INFO - 2019-10-23 13:41:45 --> Output Class Initialized
+INFO - 2019-10-23 13:41:45 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:45 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:45 --> Input Class Initialized
+INFO - 2019-10-23 13:41:45 --> Language Class Initialized
+INFO - 2019-10-23 13:41:45 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:45 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:45 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:45 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:45 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:45 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:45 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:45 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:45 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:45 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:45 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:45 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:45 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:45 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:45 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:45 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:45 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:45 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:45 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:45 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:45 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Config Class Initialized
+INFO - 2019-10-23 13:41:47 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:47 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:47 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:47 --> URI Class Initialized
+INFO - 2019-10-23 13:41:47 --> Router Class Initialized
+INFO - 2019-10-23 13:41:47 --> Output Class Initialized
+INFO - 2019-10-23 13:41:47 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:47 --> Input Class Initialized
+INFO - 2019-10-23 13:41:47 --> Language Class Initialized
+INFO - 2019-10-23 13:41:47 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:47 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:47 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:47 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:47 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:47 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:47 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:47 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:47 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:47 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:47 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:47 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:47 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:47 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:47 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:47 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:47 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:47 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:47 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:47 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> Model Class Initialized
+INFO - 2019-10-23 13:41:47 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:41:47 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:41:47 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:47 --> Total execution time: 0.1850
+INFO - 2019-10-23 13:41:48 --> Config Class Initialized
+INFO - 2019-10-23 13:41:48 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:48 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:48 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:48 --> URI Class Initialized
+INFO - 2019-10-23 13:41:48 --> Router Class Initialized
+INFO - 2019-10-23 13:41:48 --> Output Class Initialized
+INFO - 2019-10-23 13:41:48 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:48 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:48 --> Input Class Initialized
+INFO - 2019-10-23 13:41:48 --> Language Class Initialized
+INFO - 2019-10-23 13:41:48 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:48 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:48 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:48 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:48 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:48 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:48 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:48 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:48 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:48 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:48 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:48 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:48 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:48 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:48 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> Model Class Initialized
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:48 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:48 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1
+INFO - 2019-10-23 13:41:48 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 1
+INFO - 2019-10-23 13:41:48 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 3
+INFO - 2019-10-23 13:41:48 --> 【提示信息】select od.id as did,o.status as order_status,o.*,od.*,c.* from db_order_detail od LEFT JOIN db_course c ON c.id = od.course_id LEFT JOIN db_order o ON o.id = od.order_id where od.user_id = 1 and o.status = 4
+INFO - 2019-10-23 13:41:48 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myGroup.php
+INFO - 2019-10-23 13:41:48 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:48 --> Total execution time: 0.2216
+INFO - 2019-10-23 13:41:54 --> Config Class Initialized
+INFO - 2019-10-23 13:41:54 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:54 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:54 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:54 --> URI Class Initialized
+INFO - 2019-10-23 13:41:54 --> Router Class Initialized
+INFO - 2019-10-23 13:41:54 --> Output Class Initialized
+INFO - 2019-10-23 13:41:54 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:54 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:54 --> Input Class Initialized
+INFO - 2019-10-23 13:41:54 --> Language Class Initialized
+INFO - 2019-10-23 13:41:54 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:54 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:54 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:54 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:54 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:54 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:54 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:54 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:54 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:54 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:54 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:54 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:54 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:54 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:54 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:54 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:54 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:54 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:54 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:54 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> Model Class Initialized
+INFO - 2019-10-23 13:41:54 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:41:54 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:41:54 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:54 --> Total execution time: 0.1400
+INFO - 2019-10-23 13:41:55 --> Config Class Initialized
+INFO - 2019-10-23 13:41:55 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:55 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:55 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:55 --> URI Class Initialized
+INFO - 2019-10-23 13:41:55 --> Router Class Initialized
+INFO - 2019-10-23 13:41:55 --> Output Class Initialized
+INFO - 2019-10-23 13:41:55 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:55 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:55 --> Input Class Initialized
+INFO - 2019-10-23 13:41:55 --> Language Class Initialized
+INFO - 2019-10-23 13:41:55 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:55 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:55 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:55 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:55 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:55 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:55 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:55 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:55 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:55 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:55 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:55 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:55 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:55 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:55 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:55 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:55 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:55 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:55 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:55 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> Model Class Initialized
+INFO - 2019-10-23 13:41:55 --> 【提示信息】select sum(coupon_price) as total from db_coupon_user  where user_id = 1 GROUP BY user_id limit 0,1
+INFO - 2019-10-23 13:41:55 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/my.php
+INFO - 2019-10-23 13:41:55 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:55 --> Total execution time: 0.2452
+INFO - 2019-10-23 13:41:57 --> Config Class Initialized
+INFO - 2019-10-23 13:41:57 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:41:57 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:41:57 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:41:57 --> URI Class Initialized
+INFO - 2019-10-23 13:41:57 --> Router Class Initialized
+INFO - 2019-10-23 13:41:57 --> Output Class Initialized
+INFO - 2019-10-23 13:41:57 --> Security Class Initialized
+DEBUG - 2019-10-23 13:41:57 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:41:57 --> Input Class Initialized
+INFO - 2019-10-23 13:41:57 --> Language Class Initialized
+INFO - 2019-10-23 13:41:57 --> Loader Class Initialized
+INFO - 2019-10-23 13:41:57 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:41:57 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:41:57 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:41:57 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:41:57 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:41:57 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:41:57 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:41:57 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:41:57 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:41:57 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:41:57 --> Pagination Class Initialized
+INFO - 2019-10-23 13:41:57 --> User Agent Class Initialized
+INFO - 2019-10-23 13:41:57 --> Controller Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:57 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:41:57 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:57 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:41:57 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:57 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:41:57 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> Model Class Initialized
+INFO - 2019-10-23 13:41:57 --> 【提示信息】SELECT *
+FROM `db_salesman_type`
+INFO - 2019-10-23 13:41:57 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/regOk.php
+INFO - 2019-10-23 13:41:57 --> Final output sent to browser
+DEBUG - 2019-10-23 13:41:57 --> Total execution time: 0.2086
+INFO - 2019-10-23 13:47:47 --> Config Class Initialized
+INFO - 2019-10-23 13:47:47 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:47:47 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:47:47 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:47:47 --> URI Class Initialized
+INFO - 2019-10-23 13:47:47 --> Router Class Initialized
+INFO - 2019-10-23 13:47:47 --> Output Class Initialized
+INFO - 2019-10-23 13:47:47 --> Security Class Initialized
+DEBUG - 2019-10-23 13:47:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:47:47 --> Input Class Initialized
+INFO - 2019-10-23 13:47:47 --> Language Class Initialized
+INFO - 2019-10-23 13:47:47 --> Loader Class Initialized
+INFO - 2019-10-23 13:47:47 --> Helper loaded: func_helper
+INFO - 2019-10-23 13:47:47 --> Helper loaded: url_helper
+INFO - 2019-10-23 13:47:47 --> Helper loaded: file_helper
+INFO - 2019-10-23 13:47:47 --> Helper loaded: session_helper
+INFO - 2019-10-23 13:47:47 --> Helper loaded: log_helper
+INFO - 2019-10-23 13:47:47 --> Helper loaded: business_helper
+INFO - 2019-10-23 13:47:47 --> Helper loaded: enum_helper
+INFO - 2019-10-23 13:47:47 --> Database Driver Class Initialized
+INFO - 2019-10-23 13:47:47 --> Session: Class initialized using 'files' driver.
+INFO - 2019-10-23 13:47:47 --> Language file loaded: language/chinese/pagination_lang.php
+INFO - 2019-10-23 13:47:47 --> Pagination Class Initialized
+INFO - 2019-10-23 13:47:47 --> User Agent Class Initialized
+INFO - 2019-10-23 13:47:47 --> Controller Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> 【提示信息】SELECT *
+FROM `db_dic`
+WHERE `type` = 'webInfo'
+ORDER BY `id` asc
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:47:47 --> 【提示信息】update db_order o set o.total = (select count(*) FROM db_order_detail od WHERE od.order_id = o.id);
+INFO - 2019-10-23 13:47:47 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:47:47 --> 【提示信息】update db_order  set `status` = 3 WHERE unix_timestamp(now()) > end_time;
+INFO - 2019-10-23 13:47:47 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:47:47 --> 【提示信息】update db_order set `status` = 4 where total >= 3 and `status` <> 3;
+INFO - 2019-10-23 13:47:47 --> 【提示信息】select id from db_order_detail where user_id = 1 and `status` < 2 GROUP BY order_id
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> Model Class Initialized
+INFO - 2019-10-23 13:47:47 --> 【提示信息】select c.* from db_order_detail od LEFT JOIN db_order o ON o.id = od.order_id  LEFT JOIN db_course c ON od.course_id = c.id WHERE od.user_id = 1 and o.status = 4 ORDER BY od.create_time desc;
+INFO - 2019-10-23 13:47:47 --> 【提示信息】SELECT * from db_course_detail cd LEFT JOIN db_user_course_detail ucd ON cd.id = ucd.course_detail_id AND ucd.user_id = 1 WHERE cd.course_id = 25
+INFO - 2019-10-23 13:47:47 --> File loaded: D:\xampp\htdocs\xiaomaolv\application\views\home/myCourse.php
+INFO - 2019-10-23 13:47:47 --> Final output sent to browser
+DEBUG - 2019-10-23 13:47:47 --> Total execution time: 0.2184
+INFO - 2019-10-23 13:47:47 --> Config Class Initialized
+INFO - 2019-10-23 13:47:47 --> Hooks Class Initialized
+DEBUG - 2019-10-23 13:47:47 --> UTF-8 Support Enabled
+INFO - 2019-10-23 13:47:47 --> Utf8 Class Initialized
+INFO - 2019-10-23 13:47:47 --> URI Class Initialized
+INFO - 2019-10-23 13:47:47 --> Router Class Initialized
+INFO - 2019-10-23 13:47:47 --> Output Class Initialized
+INFO - 2019-10-23 13:47:47 --> Security Class Initialized
+DEBUG - 2019-10-23 13:47:47 --> Global POST, GET and COOKIE data sanitized
+INFO - 2019-10-23 13:47:47 --> Input Class Initialized
+INFO - 2019-10-23 13:47:47 --> Language Class Initialized
+ERROR - 2019-10-23 13:47:47 --> 404 页面走丢了: Coust/images
