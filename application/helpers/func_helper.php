@@ -31,7 +31,7 @@ function estr($array, $key) {
 }
 
 function getBasePath(){
-    return "/";
+    return "http://zjyuxinjiaoyu.com/xiaomaolv/";
 }
 
 ////获得访客浏览器类型
@@ -415,7 +415,7 @@ function getMathcode($width=100,$height=35) {
     function get_img_by_video( $videopath, $imgpath, $time = 1) {
         if (! file_exists($videopath)) return false;
         if (strpos(PHP_OS, 'WIN') !== false){ //windows系统
-            $str = "D:\\ffmpeg\\bin\\ffmpeg -i {$videopath} -y -f mjpeg -ss 3 -t {$time} -s 300x200 {$imgpath}";
+            $str = "C:\\ffmpeg\\bin\\ffmpeg -i {$videopath} -y -f mjpeg -ss 3 -t {$time} -s 300x200 {$imgpath}";
             return exec($str);
         }else{
             $str = "ffmpeg -i {$videopath} -y -f mjpeg -ss 3 -t {$time} -s 300x200 {$imgpath}";
@@ -435,7 +435,7 @@ function getMathcode($width=100,$height=35) {
         if(PHP_OS == "Linux"){
             $command = sprintf('ffmpeg -i "%s" 2>&1', $file);//你的安装路径
         }else{
-            $command = sprintf('D:\\ffmpeg\\bin\\ffmpeg -i "%s" 2>&1', $file);//你的安装路径
+            $command = sprintf('C:\\ffmpeg\\bin\\ffmpeg -i "%s" 2>&1', $file);//你的安装路径
         }
 
 

@@ -62,6 +62,17 @@ class Course extends HomeController
 
 
     public function buy($id,$uid = 0){
+
+        require_once 'AppServiceWxPayBlog.php';
+        $config = array();
+        $config['openid'] = $_SESSION['app_home_session']['openid'];
+        $config['out_trade_no'] = '123456';
+        $config['body'] = 'aabbccssdd123';
+        $config['total_fee'] = '100';
+        $config['notify_url'] = 'http://zjyuxinjiaoyu.com/xiaomaolv/Home/order/notify';
+        //$app = new AppServiceWxPay($config);
+        //$ret = $app->pay();
+
         $course = $this->Course_model->get_single(array("id" => $id));
         if($course['zs_video_big']){
             $zs_video_big = $this -> CourseDetail_model ->get_single(array('id'=>$course['zs_video_big']));

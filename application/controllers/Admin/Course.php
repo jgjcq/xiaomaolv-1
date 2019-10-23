@@ -28,11 +28,11 @@ class Course extends AdminController
             $connar['where'] .= $this->sqlLikeEscape(" and (title like '%??%' ",array($params['param']));
             $connar['where'] .= $this->sqlLikeEscape(" or subtitle like '%??%') ",array($params['param']));
         }
-        if(isset($params['status']))
+        if(isset($_POST['status']))
         {
-            if($params['status']<2)
+            if($_POST['status']<2)
             {
-                $connar['where'] .= $this->sqlLikeEscape(" and status=?? ",array($params['status']));
+                $connar['where'] .= $this->sqlLikeEscape(" and status=?? ",array($_POST['status']));
             }
         }
         else{
@@ -123,13 +123,16 @@ class Course extends AdminController
         $images = str_replace('[removed]','data:image/png;base64,',$images);
         $images1=$_POST['article_image_big'];
         $images1 = str_replace('[removed]','data:image/png;base64,',$images1);
+        $images2=$_POST['logo'];
+        $images2 = str_replace('[removed]','data:image/png;base64,',$images2);
         $goods = array();
         $userId = $_SESSION[SESS_USER]["id"];
         if(!isset($_POST['id']) || $_POST['id'] == ""){
-            $goods = copyArray($_POST,array("title","tags","content","type","price","old_price","p_price","course_type","remark","max_coupon","fx_price","zs_video_big"));
+            $goods = copyArray($_POST,array("title","tags","content","type","price","old_price","p_price","course_type","remark","max_coupon","fx_price","zs_video_big","logo"));
         }else{
-            $goods = copyArray($_POST,array("title","tags","id","content","type","price","old_price","p_price","course_type","remark","max_coupon","fx_price","zs_video_big"));
+            $goods = copyArray($_POST,array("title","tags","id","content","type","price","old_price","p_price","course_type","remark","max_coupon","fx_price","zs_video_big","logo"));
         }
+        if(!$goods['zs_video_big'])$goods['zs_video_big'] = 0;
         if(checkStringIsBase64($images)){
             $checkRet = uploadImg($images,'article');
             if(!$checkRet['status']){
@@ -148,7 +151,15 @@ class Course extends AdminController
         }else{
             $goods['article_image_big'] = $_POST['article_image_big'];
         }
-
+        if(checkStringIsBase64($images2)){
+            $checkRet = uploadImg($images2,'article');
+            if(!$checkRet['status']){
+                exit(toRetJson($checkRet));
+            }
+            $goods['logo'] = $checkRet["v"];
+        }else{
+            $goods['logo'] = $_POST['logo'];
+        }
         if(!isset($_POST['id']) || $_POST['id'] == ""){
             if($count)
             {
@@ -184,6 +195,10 @@ class Course extends AdminController
             if($goods_data['article_image_big']&&$goods_data['article_image_big']!=$goods['article_image_big'])
             {
                 unlink($goods_data['article_image_big']);
+            }
+            if($goods_data['logo']&&$goods_data['logo']!=$goods['logo'])
+            {
+                unlink($goods_data['logo']);
             }
             $goods["updated"] = $userId;
             $goods['update_time']=date("Y-m-d H:i:s");

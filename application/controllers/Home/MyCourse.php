@@ -86,7 +86,7 @@ class MyCourse extends HomeController
     public function fxGetCoupon($course_id){
         $share = $this->Share_model->getShare($course_id,$this->uid);
         $course = $this->Course_model->get_single(array('id'=>$course_id));
-        if(!$share && $course['fx_price'] > 0){
+        if(!$share && $course['fx_price'] > 0&&$this->uid>0){
             $share = array();
             $share['user_id'] = $this->uid;
             $share['course_id'] = $course_id;

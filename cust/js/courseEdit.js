@@ -37,6 +37,7 @@ var save = function() {
 	var title=$('#title').val();
 	var tags=$('#tags').val();
 	var article_image=$('#article_image').val();
+	var logo=$('#logo').val();
 	var article_image_big=$('#article_image_big').val();
 	var content=UE.getEditor('editor').getContent();
 	var price = $('#price').val();
@@ -53,7 +54,7 @@ var save = function() {
 
 	var datas = {id:id,title:title,article_image:article_image,content:content,
 		price:price,old_price:old_price,p_price:p_price,type:type,file_ids:file_ids,file_titles:file_titles,
-		course_type:course_type,remark:remark,tags:tags,max_coupon:max_coupon,fx_price:fx_price,article_image_big:article_image_big,zs_video_big:zs_video_big}
+		course_type:course_type,remark:remark,tags:tags,max_coupon:max_coupon,fx_price:fx_price,article_image_big:article_image_big,zs_video_big:zs_video_big,logo:logo}
 
 
 	$.ajax({

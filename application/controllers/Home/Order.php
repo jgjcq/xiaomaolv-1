@@ -78,21 +78,22 @@ class Order extends HomeController
             $orderDetail['share_id'] = $share_id;
             $orderDetail['create_time'] = time();
             $id = $this->Order_detail_model->add($orderDetail);
+            $orderDetail['id'] = $id;
             $this->Order_detail_model->reflash();
             $this->setOrderCourse($order_id);
             if ($coupon > 0) {
                 $this->Coupon_user_model->useCoupon($this->uid, $coupon, $id);
             }
             $order =  $this->Order_model->get_single(array('id' => $order_id));
-            if($order['status'] == 4 && $type == 1){
-                $orderDetailList = $this->Order_detail_model->get_list(array('order'=>$id));
+            if($order['status'] == 4 && $share_id > 0){
+                $orderDetailList = $this->Order_detail_model->get_list(array('order_id'=>$order_id));
                 if($orderDetailList && count($orderDetailList)>0){
                     foreach ($orderDetailList as $od){
                         $this->cal($od);
                     }
                 }
             }
-            exit(retJson("购买成功", true));
+            exit(retJson("购买成功", true,$orderDetail));
         } else {
             exit(retJson("购买错误", false));
         }
@@ -174,7 +175,7 @@ class Order extends HomeController
             $royalty['create_time'] = time();
             $royalty['order_number'] = $order_detail['order_number'];
             $royalty['create_date'] = date("Y-m-d H:i:s");
-            if ($share) {
+            if ($share&&$share['user_id']) {
                 $lmm = $this->Salesman_model->getByUserId($share['user_id']);
                 if ($lmm) {
                     //城市合伙人

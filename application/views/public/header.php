@@ -6,7 +6,7 @@
 <meta name="keywords" content="<?=getValInArr(getSess(SESS_DIC),array('webInfo','keywords'))?>" />
 <meta name="description" content="<?=getValInArr(getSess(SESS_DIC),array('webInfo','description'))?>" />
 <!--<meta name="viewport" content="width=device-width, initial-scale=1.0" />-->
-<link rel="stylesheet" type="text/css" href="public/append/font-awesome-4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="public/append/font-awesome-4.7.0/css/font-awesome.min.css">
 <link rel="stylesheet" type="text/css" href="public/assets/css/bootstrap.min.css">
 <link rel="stylesheet" type="text/css" href="public/assets/css/font-awesome.min.css">
 <!--[if IE 7]>
@@ -61,12 +61,12 @@
 	描述：sweetalert
 -->
 <script src="public/append/swal/sweet-alert.min.js"></script>
-<link rel="stylesheet" href="public/append/swal/sweet-alert.css">
+<link rel="stylesheet" href="public/append/swal/sweet-alert.css">
 <!--星冉工具 -->
 <script src="public/js/util.js"></script>
 <link rel="stylesheet" href="public/xr/xrDatatable.css" />
-<script src="public/xr/xrDatatable.js"></script>
-<!-- 自定义css-->
+<script src="public/xr/xrDatatable.js"></script>
+<!-- 自定义css-->
 <link rel="stylesheet" href="public/css/common.css" />
 <!-- 业务js-->
-<script src="cust/js/append/business.js"></script>
+<script src="cust/js/append/business.js"></script>

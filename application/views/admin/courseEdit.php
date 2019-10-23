@@ -93,7 +93,15 @@ defined('BASEPATH') OR exit('No direct script access allowed');
                             </td>
 
                         </tr>
-						
+                        <tr>
+                            <th>横幅</th>
+                            <td colspan="3">
+                                <input type="hidden" name="logo" value="<?=estr($detail, 'logo') ?>" id="logo" dataType="*">
+                                <img src="<?php echo $detail['logo']?$detail['logo']:'cust/images/upload.png'; ?>" alt="" style="width:150px; height:70px; cursor: pointer;" onclick="$(this).next().click();" >
+                                <input type="file" style="display: none;" name="image_file" onchange="doImage(this);">
+                            </td>
+
+                        </tr>
 						<tr>
 							<th>课程详情</th>
 							<td colspan="3">

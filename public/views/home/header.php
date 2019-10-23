@@ -15,7 +15,6 @@
 <link rel="stylesheet" href="cust/js/sui/css/sm.css">
 <link rel="stylesheet" href="cust/js/sui/css/sm-extend.css">
 <link rel="stylesheet" href="cust/css/index.css">
-<link rel="stylesheet" href="cust/css/mb.css">
 <link href="public/append/layer/layer/mobile/need/layer.css" rel="stylesheet" />
 <style type="text/css">
     a:hover{

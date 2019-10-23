@@ -6,13 +6,13 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 		include_once 'public/views/header.php';
 		?>
 		<script type="text/javascript" src="public/assets/js/jquery-1.10.2.min.js"></script>
-		<link rel="stylesheet" type="text/css" href="public/append/diyUpload/css/webuploader.css">
+		<link rel="stylesheet" type="text/css" href="public/append/diyUpload/css/webuploader.css">
 		<link rel="stylesheet" type="text/css" href="public/append/diyUpload/css/diyUpload.css">
 		<script type="text/javascript" src="public/append/diyUpload/js/webuploader.html5only.min.js"></script>
 		<script type="text/javascript" src="public/append/diyUpload/js/diyUpload.js"></script>
 		<script src="public/js/cus_modal.js"></script>
-		<?php if(isWxC()):?>
-			<link rel="stylesheet" href="cust/css/m/mEdit.css" />
+		<?php if(isWxC()):?>
+			<link rel="stylesheet" href="cust/css/m/mEdit.css" />
 		<?php endif;?>
 	</head>
 	<style>
@@ -21,7 +21,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	#demo{ margin:50px auto; width:586px; min-height:250px; background:#CF9}
 	</style>
 <body>
-	<input type="hidden" id="modal_title" value="<?=$title ?>" />
+	<input type="hidden" id="modal_title" value="<?=$title ?>" />
 	<input type="hidden" id="dirName" value="<?=$_GET['dirName'] ?>" />
 <div id="box">
 	<span>最大上传照片数12张，最大上传大小10M.</span>

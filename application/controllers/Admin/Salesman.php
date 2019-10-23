@@ -244,17 +244,18 @@ class Salesman extends AdminController
         $connar = array();
         $connar = $this -> Salesman_model -> pickPages($connar, $_POST);
         $connar['where'] = " in_out = 1";
-        if(isset($status) && $status != -1){
+        if(isset($status) && $status != 2){
             $connar['where'] .= " and status = $status";
         }
         $data = $this->Royalty_model->get_page_list($connar);
         foreach ($data["ret"] as $k => $v) {
             $salesman = $this -> Salesman_model ->get_single(array('id'=>$v['salesman_id']));
-            $data['ret'][$k]['salesman_name']=$salesman['nickname'];
-            $data['ret'][$k]['real_name']=$salesman['real_name'];
-            $data['ret'][$k]['bank']=$salesman['bank'];
-            $data['ret'][$k]['bank_code']=$salesman['bank_code'];
-            $data['ret'][$k]['aiplay']=$salesman['aiplay'];
+            $user = $this->User_model->get_single(array('id'=>$salesman['user_id']));
+            $data['ret'][$k]['salesman_name']=$user['username'];
+            $data['ret'][$k]['real_name']=$user['real_name'];
+            $data['ret'][$k]['bank']=$user['bank'];
+            $data['ret'][$k]['bank_code']=$user['bank_code'];
+            $data['ret'][$k]['aiplay']=$user['alipay'];
             $data['ret'][$k]['status_text'] = $v['status'] == 0?'否':'<span style="color:red">是</span>';
         }
 

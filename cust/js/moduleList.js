@@ -17,7 +17,7 @@ $(function() {
 				element.parents("tr").find('.icon-plus-sign-alt').addClass('icon-spin').addClass('icon-large');
 				for (var i = 0; i < trData.sub.length; i++) {
 					var insertRow = $("<tr class='XRappend" + index + "' style='background-color:#ccc;'></tr>");
-					var url=getRootPath()+'/Admin/Module/edit/'+trData.sub[i].id;
+					var url='Admin/Module/edit/'+trData.sub[i].id;
 					// var data_str=JSON.stringify(trData.sub[i].sub);
 					var rowData=trData.sub[i].sub;
 					insertRow.append("<td>" +"</td>");
